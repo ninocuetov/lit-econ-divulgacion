@@ -95,12 +95,11 @@ function renderIndex() {
         <article class="archive-item">
           <div class="archive-copy">
             <p class="archive-number">${round.number}</p>
-            <h3>${round.title}</h3>
+            <h3><a href="ronda.html?id=${round.id}&version=long">${round.title}</a></h3>
             <p>${round.summary}</p>
           </div>
           <nav class="archive-links" aria-label="Enlaces de ${round.number}">
             <a href="ronda.html?id=${round.id}&version=short">Versión corta</a>
-            <a href="ronda.html?id=${round.id}&version=long">Versión larga</a>
             <a href="${round.pdf}">PDF</a>
           </nav>
         </article>
@@ -174,20 +173,10 @@ function wireRoundTabs() {
   });
 }
 
-async function renderPlan() {
-  const content = document.querySelector("#content");
-  if (!content || !location.pathname.endsWith("plan.html")) return;
-
-  const response = await fetch("contenido/PLAN_EDITORIAL.md");
-  const text = await response.text();
-  content.innerHTML = renderMarkdown(text, "contenido");
-}
-
 async function init() {
   await loadRounds();
   renderIndex();
   await renderRound();
-  await renderPlan();
   wireRoundTabs();
 }
 

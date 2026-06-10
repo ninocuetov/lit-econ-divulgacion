@@ -205,6 +205,12 @@ a {
   line-height: 1.25;
 }
 
+.archive-copy h3 a {
+  color: inherit;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.16em;
+}
+
 .archive-copy p:last-child {
   max-width: 640px;
   margin: 0.2rem 0 0;
@@ -213,7 +219,7 @@ a {
 
 .archive-links {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   align-items: start;
   padding-top: 1.75rem;
