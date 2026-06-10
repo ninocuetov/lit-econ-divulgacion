@@ -125,12 +125,12 @@ function renderIndex() {
             <p class="archive-number">${round.number}</p>
             <h3><a href="ronda.html?id=${round.id}&version=long">${round.title}</a></h3>
             <p>${round.summary}</p>
-            ${mechanismPreview ? `<div class="mechanism-preview">${mechanismPreview}</div>` : ""}
           </div>
           <nav class="archive-links" aria-label="Enlaces de ${round.number}">
             <a href="ronda.html?id=${round.id}&version=short">Versión corta</a>
             <a href="${round.pdf}">PDF</a>
           </nav>
+          ${mechanismPreview ? `<div class="mechanism-preview">${mechanismPreview}</div>` : ""}
         </article>
       `;
       }
