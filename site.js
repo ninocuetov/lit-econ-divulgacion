@@ -92,41 +92,18 @@ function renderIndex() {
   list.innerHTML = state.rounds
     .map(
       (round) => `
-        <details class="tree-node" open>
-          <summary>
-            <span class="tree-marker" aria-hidden="true"></span>
-            <span>
-              <strong>${round.number}: ${round.title}</strong>
-              <small>${round.summary}</small>
-            </span>
-          </summary>
-          <div class="tree-children">
-            <a href="ronda.html?id=${round.id}&version=short">
-              <span>Versión breve</span>
-              <small>Texto listo para lectura rápida</small>
-            </a>
-            <a href="ronda.html?id=${round.id}&version=long">
-              <span>Versión extendida</span>
-              <small>Ficha larga con evidencia y bibliografía</small>
-            </a>
-            <a href="${round.pdf}">
-              <span>PDF</span>
-              <small>Documento de publicación</small>
-            </a>
-            <a href="${round.docx}">
-              <span>DOCX</span>
-              <small>Archivo editable</small>
-            </a>
-            <a href="${round.folder}/${round.short}">
-              <span>Fuente breve</span>
-              <small>Texto plano original</small>
-            </a>
-            <a href="${round.folder}/${round.long}">
-              <span>Fuente extendida</span>
-              <small>Markdown original</small>
-            </a>
+        <article class="archive-item">
+          <div class="archive-copy">
+            <p class="archive-number">${round.number}</p>
+            <h3>${round.title}</h3>
+            <p>${round.summary}</p>
           </div>
-        </details>
+          <nav class="archive-links" aria-label="Enlaces de ${round.number}">
+            <a href="ronda.html?id=${round.id}&version=short">Versión corta</a>
+            <a href="ronda.html?id=${round.id}&version=long">Versión larga</a>
+            <a href="${round.pdf}">PDF</a>
+          </nav>
+        </article>
       `
     )
     .join("");

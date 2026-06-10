@@ -60,6 +60,34 @@ a {
   color: #fff;
 }
 
+.archive-header {
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+
+.archive-title {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 1.6rem 1.25rem 2rem;
+}
+
+.archive-title h1 {
+  max-width: 1080px;
+  margin: 0;
+  color: #020b4d;
+  font-size: clamp(2.4rem, 5.5vw, 4.9rem);
+  line-height: 0.98;
+  letter-spacing: 0;
+}
+
+.archive-title p {
+  max-width: 980px;
+  margin: 1.25rem 0 0;
+  color: #020b4d;
+  font-size: clamp(1.05rem, 2vw, 1.45rem);
+  line-height: 1.55;
+}
+
 .hero {
   min-height: 56vh;
   display: grid;
@@ -104,7 +132,8 @@ a {
 }
 
 .intro,
-.rounds {
+.rounds,
+.archive {
   max-width: 1120px;
   margin: 0 auto;
   padding: 3rem 1.25rem;
@@ -125,6 +154,75 @@ a {
 .section-heading h2 {
   margin: 0;
   font-size: 2rem;
+}
+
+.archive {
+  padding-top: 2rem;
+}
+
+.archive .section-heading {
+  display: block;
+  margin-bottom: 1.1rem;
+}
+
+.archive .section-heading h2 {
+  color: #020b4d;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+}
+
+.archive-list {
+  display: grid;
+  gap: 0;
+}
+
+.archive-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 42%);
+  gap: 2rem;
+  padding: 1.15rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.archive-item:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.archive-copy {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.archive-number {
+  margin: 0;
+  color: #020b4d;
+  font-weight: 800;
+}
+
+.archive-copy h3 {
+  margin: 0;
+  color: #020b4d;
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.archive-copy p:last-child {
+  max-width: 640px;
+  margin: 0.2rem 0 0;
+  color: var(--muted);
+}
+
+.archive-links {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: start;
+  padding-top: 1.75rem;
+}
+
+.archive-links a {
+  color: #020b4d;
+  font-size: 1.08rem;
+  text-decoration-thickness: 0.06em;
 }
 
 .round-grid {
@@ -435,5 +533,20 @@ a {
 
   .article {
     padding: 1.25rem;
+  }
+
+  .archive-title {
+    padding-top: 1.25rem;
+  }
+
+  .archive-item {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .archive-links {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+    padding-top: 0;
   }
 }
