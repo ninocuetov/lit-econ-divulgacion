@@ -1,0 +1,26 @@
+[
+  {
+    "id": "estado-mercado",
+    "number": "Ronda 1",
+    "title": "¿Puede haber buenos mercados sin un Estado capaz?",
+    "summary": "Estado, mercados e instituciones: complementariedad antes que polarización.",
+    "folder": "contenido/ronda_01_estado_mercado",
+    "short": "RONDA_01_WHATSAPP_UN_SOLO_MENSAJE.txt",
+    "long": "RONDA_01_LARGA.md",
+    "image": "contenido/ronda_01_estado_mercado/publicacion/Ronda_01_estado_mercado_portada_whatsapp.png",
+    "pdf": "contenido/ronda_01_estado_mercado/publicacion/Ronda_01_Estado_y_mercados.pdf",
+    "docx": "contenido/ronda_01_estado_mercado/publicacion/Ronda_01_Estado_y_mercados.docx"
+  },
+  {
+    "id": "capacidad-estatal",
+    "number": "Ronda 2",
+    "title": "¿Por qué el Estado llega tarde, mal o no llega?",
+    "summary": "Capacidad estatal, burocracia, corrupción, servicios y captura regulatoria.",
+    "folder": "contenido/ronda_01",
+    "short": "RONDA_01_WHATSAPP_UN_SOLO_MENSAJE.txt",
+    "long": "RONDA_01_LARGA.md",
+    "image": "contenido/ronda_01/publicacion/Ronda_01_portada_whatsapp.png",
+    "pdf": "contenido/ronda_01/publicacion/Ronda_01_Estado_burocracia_y_captura.pdf",
+    "docx": "contenido/ronda_01/publicacion/Ronda_01_Estado_burocracia_y_captura.docx"
+  }
+]
