@@ -88,6 +88,25 @@ a {
   line-height: 1.55;
 }
 
+.purpose-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1.25rem;
+}
+
+.purpose-strip span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.2rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid #cdd6d2;
+  border-radius: 999px;
+  background: #f8fbf8;
+  color: #020b4d;
+  font-weight: 750;
+}
+
 .hero {
   min-height: 56vh;
   display: grid;
@@ -215,6 +234,26 @@ a {
   max-width: 640px;
   margin: 0.2rem 0 0;
   color: var(--muted);
+}
+
+.mechanism-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.65rem;
+}
+
+.mechanism-preview span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.9rem;
+  padding: 0.25rem 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #f8fbf8;
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 750;
 }
 
 .archive-links {

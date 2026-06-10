@@ -91,19 +91,27 @@ function renderIndex() {
 
   list.innerHTML = state.rounds
     .map(
-      (round) => `
+      (round) => {
+        const mechanismPreview = (round.mechanisms || [])
+          .slice(0, 4)
+          .map((item) => `<span>${escapeHtml(item.label)}</span>`)
+          .join("");
+
+        return `
         <article class="archive-item">
           <div class="archive-copy">
             <p class="archive-number">${round.number}</p>
             <h3><a href="ronda.html?id=${round.id}&version=long">${round.title}</a></h3>
             <p>${round.summary}</p>
+            ${mechanismPreview ? `<div class="mechanism-preview">${mechanismPreview}</div>` : ""}
           </div>
           <nav class="archive-links" aria-label="Enlaces de ${round.number}">
             <a href="ronda.html?id=${round.id}&version=short">Versión corta</a>
             <a href="${round.pdf}">PDF</a>
           </nav>
         </article>
-      `
+      `;
+      }
     )
     .join("");
 }
@@ -129,11 +137,9 @@ function setDownloads(round, sourcePath) {
   }
 }
 
-function renderSupportBlocks(round) {
+function renderMechanismMap(round) {
   const mechanisms = round.mechanisms || [];
-  const glossary = round.glossary || [];
-
-  if (!mechanisms.length && !glossary.length) return "";
+  if (!mechanisms.length) return "";
 
   const mechanismItems = mechanisms
     .map(
@@ -147,6 +153,21 @@ function renderSupportBlocks(round) {
     )
     .join("");
 
+  return `
+    <aside class="reading-tools" aria-label="Mapa de mecanismos">
+      <section class="mechanism-map">
+        <p class="eyebrow">Síntesis visual</p>
+        <h2>Mapa de mecanismos</h2>
+        <ol>${mechanismItems}</ol>
+      </section>
+    </aside>
+  `;
+}
+
+function renderSideGlossary(round) {
+  const glossary = round.glossary || [];
+  if (!glossary.length) return "";
+
   const glossaryItems = glossary
     .map(
       (item) => `
@@ -159,27 +180,21 @@ function renderSupportBlocks(round) {
     .join("");
 
   return `
-    <aside class="reading-tools" aria-label="Herramientas de lectura">
-      ${
-        mechanisms.length
-          ? `<section class="mechanism-map">
-              <p class="eyebrow">Guía de lectura</p>
-              <h2>Mapa de mecanismos</h2>
-              <ol>${mechanismItems}</ol>
-            </section>`
-          : ""
-      }
-      ${
-        glossary.length
-          ? `<section class="glossary-card">
-              <p class="eyebrow">Conceptos</p>
-              <h2>Glosario breve</h2>
-              <dl>${glossaryItems}</dl>
-            </section>`
-          : ""
-      }
-    </aside>
+    <section class="glossary-card">
+      <p class="eyebrow">Conceptos</p>
+      <h2>Glosario breve</h2>
+      <dl>${glossaryItems}</dl>
+    </section>
   `;
+}
+
+function injectMechanismMap(markup, support) {
+  if (!support) return markup;
+  const marker = "<h2>Preguntas para discutir</h2>";
+  if (markup.includes(marker)) {
+    return markup.replace(marker, `${support}${marker}`);
+  }
+  return `${markup}${support}`;
 }
 
 async function renderRound() {
@@ -208,8 +223,13 @@ async function renderRound() {
 
   const response = await fetch(sourcePath);
   const text = await response.text();
-  const support = state.currentVersion === "long" ? renderSupportBlocks(round) : "";
-  content.innerHTML = `${support}${renderMarkdown(text, round.folder)}`;
+  const articleMarkup = renderMarkdown(text, round.folder);
+  const mechanismMap = state.currentVersion === "long" ? renderMechanismMap(round) : "";
+  content.innerHTML = injectMechanismMap(articleMarkup, mechanismMap);
+  const sideGlossary = document.querySelector("#side-glossary");
+  if (sideGlossary) {
+    sideGlossary.innerHTML = state.currentVersion === "long" ? renderSideGlossary(round) : "";
+  }
   setDownloads(round, sourcePath);
 }
 
