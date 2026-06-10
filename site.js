@@ -129,6 +129,59 @@ function setDownloads(round, sourcePath) {
   }
 }
 
+function renderSupportBlocks(round) {
+  const mechanisms = round.mechanisms || [];
+  const glossary = round.glossary || [];
+
+  if (!mechanisms.length && !glossary.length) return "";
+
+  const mechanismItems = mechanisms
+    .map(
+      (item, index) => `
+        <li>
+          <span class="mechanism-step">${index + 1}</span>
+          <strong>${escapeHtml(item.label)}</strong>
+          <p>${escapeHtml(item.text)}</p>
+        </li>
+      `
+    )
+    .join("");
+
+  const glossaryItems = glossary
+    .map(
+      (item) => `
+        <div>
+          <dt>${escapeHtml(item.term)}</dt>
+          <dd>${escapeHtml(item.definition)}</dd>
+        </div>
+      `
+    )
+    .join("");
+
+  return `
+    <aside class="reading-tools" aria-label="Herramientas de lectura">
+      ${
+        mechanisms.length
+          ? `<section class="mechanism-map">
+              <p class="eyebrow">Guía de lectura</p>
+              <h2>Mapa de mecanismos</h2>
+              <ol>${mechanismItems}</ol>
+            </section>`
+          : ""
+      }
+      ${
+        glossary.length
+          ? `<section class="glossary-card">
+              <p class="eyebrow">Conceptos</p>
+              <h2>Glosario breve</h2>
+              <dl>${glossaryItems}</dl>
+            </section>`
+          : ""
+      }
+    </aside>
+  `;
+}
+
 async function renderRound() {
   const content = document.querySelector("#content");
   const title = document.querySelector("#round-title");
@@ -155,7 +208,8 @@ async function renderRound() {
 
   const response = await fetch(sourcePath);
   const text = await response.text();
-  content.innerHTML = renderMarkdown(text, round.folder);
+  const support = state.currentVersion === "long" ? renderSupportBlocks(round) : "";
+  content.innerHTML = `${support}${renderMarkdown(text, round.folder)}`;
   setDownloads(round, sourcePath);
 }
 

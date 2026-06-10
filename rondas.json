@@ -9,7 +9,39 @@
     "long": "RONDA_01_LARGA.md",
     "image": "contenido/ronda_01_estado_mercado/publicacion/Ronda_01_estado_mercado_portada_whatsapp.png",
     "pdf": "contenido/ronda_01_estado_mercado/publicacion/Ronda_01_Estado_y_mercados.pdf",
-    "docx": "contenido/ronda_01_estado_mercado/publicacion/Ronda_01_Estado_y_mercados.docx"
+    "docx": "contenido/ronda_01_estado_mercado/publicacion/Ronda_01_Estado_y_mercados.docx",
+    "mechanisms": [
+      {
+        "label": "Diagnóstico",
+        "text": "Identificar la restricción principal antes de elegir una reforma."
+      },
+      {
+        "label": "Coordinación",
+        "text": "Usar capacidades públicas para resolver fallas que el mercado no corrige solo."
+      },
+      {
+        "label": "Economía política",
+        "text": "Reconocer que las reformas cambian incentivos, ganadores y coaliciones."
+      },
+      {
+        "label": "Aprendizaje productivo",
+        "text": "Apoyar sectores o capacidades con disciplina, evaluación y salida."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Restricción al crecimiento",
+        "definition": "Cuello de botella que limita inversión, productividad o empleo más que otros problemas."
+      },
+      {
+        "term": "Falla de coordinación",
+        "definition": "Situación en la que actores privados no invierten porque dependen de acciones complementarias de otros."
+      },
+      {
+        "term": "Política productiva",
+        "definition": "Intervenciones orientadas a desarrollar capacidades, sectores, innovación o encadenamientos."
+      }
+    ]
   },
   {
     "id": "capacidad-estatal",
@@ -21,6 +53,38 @@
     "long": "RONDA_01_LARGA.md",
     "image": "contenido/ronda_01/publicacion/Ronda_01_portada_whatsapp.png",
     "pdf": "contenido/ronda_01/publicacion/Ronda_01_Estado_burocracia_y_captura.pdf",
-    "docx": "contenido/ronda_01/publicacion/Ronda_01_Estado_burocracia_y_captura.docx"
+    "docx": "contenido/ronda_01/publicacion/Ronda_01_Estado_burocracia_y_captura.docx",
+    "mechanisms": [
+      {
+        "label": "Burocracia",
+        "text": "Selección, incentivos, autonomía y organización afectan la capacidad de ejecutar."
+      },
+      {
+        "label": "Corrupción",
+        "text": "Las reglas y controles modifican costos, oportunidades y formas de ocultamiento."
+      },
+      {
+        "label": "Servicio efectivo",
+        "text": "Que un servicio exista en presupuesto o norma no garantiza que llegue al ciudadano."
+      },
+      {
+        "label": "Captura",
+        "text": "Intereses organizados pueden influir reglas, supervisión o decisiones públicas."
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Capacidad estatal",
+        "definition": "Aptitud del Estado para convertir recursos, autoridad e información en resultados."
+      },
+      {
+        "term": "Captura regulatoria",
+        "definition": "Influencia indebida sobre reguladores o reglas en favor de intereses particulares."
+      },
+      {
+        "term": "Ausentismo",
+        "definition": "Brecha entre personal financiado formalmente y personal efectivamente disponible."
+      }
+    ]
   }
 ]
