@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ensayos de diagramas para portada y rondas</title>
+    <style>
+      :root {
+        --ink: #020b4d;
+        --muted: #55616d;
+        --line: #d7dfdc;
+        --paper: #f4f7f5;
+        --surface: #ffffff;
+        --green: #176b5d;
+        --rust: #9d4f2f;
+        --gold: #c8953c;
+        --soft-green: #dfeee9;
+        --soft-blue: #e3edf6;
+        --soft-rust: #f1e2da;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.55;
+      }
+
+      main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem 1.25rem 4rem;
+      }
+
+      h1 {
+        max-width: 900px;
+        margin: 0 0 0.75rem;
+        font-size: clamp(2.2rem, 4vw, 4.6rem);
+        line-height: 1;
+        letter-spacing: 0;
+      }
+
+      h2,
+      h3 {
+        margin: 0;
+        line-height: 1.15;
+      }
+
+      .intro {
+        max-width: 820px;
+        margin: 0 0 2rem;
+        color: var(--muted);
+        font-size: 1.08rem;
+      }
+
+      .stack {
+        display: grid;
+        gap: 1.2rem;
+      }
+
+      .mock {
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: var(--surface);
+        box-shadow: 0 12px 36px rgba(2, 11, 77, 0.08);
+      }
+
+      .mock-caption {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 1rem 1.1rem;
+        border-bottom: 1px solid var(--line);
+        background: #fff;
+      }
+
+      .mock-caption p {
+        max-width: 760px;
+        margin: 0.3rem 0 0;
+        color: var(--muted);
+      }
+
+      .tag {
+        align-self: start;
+        min-width: max-content;
+        padding: 0.3rem 0.65rem;
+        border-radius: 999px;
+        background: #edf4f1;
+        color: var(--green);
+        font-size: 0.85rem;
+        font-weight: 800;
+      }
+
+      .hero-mock,
+      .round-mock {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(320px, 42%);
+        gap: 2rem;
+        align-items: center;
+        min-height: 420px;
+        padding: clamp(1.4rem, 4vw, 3rem);
+      }
+
+      .hero-mock {
+        background:
+          radial-gradient(circle at 80% 18%, rgba(23, 107, 93, 0.16), transparent 28%),
+          linear-gradient(135deg, #f8fbf8 0%, #eef5f2 55%, #e7f0ee 100%);
+      }
+
+      .hero-copy h2 {
+        max-width: 720px;
+        font-size: clamp(2.5rem, 5.3vw, 5.2rem);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+
+      .hero-copy p,
+      .round-copy p {
+        max-width: 720px;
+        color: var(--ink);
+        font-size: 1.2rem;
+      }
+
+      .purpose {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 1.2rem;
+      }
+
+      .purpose span {
+        padding: 0.35rem 0.7rem;
+        border: 1px solid #cdd8d4;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.74);
+        font-weight: 800;
+      }
+
+      .diagram-card {
+        display: grid;
+        place-items: center;
+        min-height: 290px;
+        border: 1px solid rgba(2, 11, 77, 0.08);
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.74);
+      }
+
+      svg {
+        width: min(100%, 460px);
+        height: auto;
+      }
+
+      text {
+        fill: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+        font-size: 14px;
+        font-weight: 800;
+      }
+
+      .small {
+        fill: var(--muted);
+        font-size: 11px;
+        font-weight: 650;
+      }
+
+      .line {
+        fill: none;
+        stroke: var(--green);
+        stroke-width: 2.4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .line-rust {
+        fill: none;
+        stroke: var(--rust);
+        stroke-width: 2.2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .node {
+        fill: #fff;
+        stroke: var(--green);
+        stroke-width: 2;
+      }
+
+      .node-rust {
+        fill: #fff;
+        stroke: var(--rust);
+        stroke-width: 2;
+      }
+
+      .fill-green {
+        fill: var(--soft-green);
+      }
+
+      .fill-blue {
+        fill: var(--soft-blue);
+      }
+
+      .fill-rust {
+        fill: var(--soft-rust);
+      }
+
+      .round-mock {
+        min-height: 340px;
+        background:
+          linear-gradient(90deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.78)),
+          #fff;
+      }
+
+      .round-copy .eyebrow {
+        margin: 0 0 0.6rem;
+        color: var(--rust);
+        font-size: 0.8rem;
+        font-weight: 900;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      .round-copy h2 {
+        font-size: clamp(2rem, 4vw, 4.1rem);
+        line-height: 1.02;
+      }
+
+      .ghost-diagram {
+        opacity: 0.42;
+        filter: saturate(0.88);
+      }
+
+      @media (max-width: 860px) {
+        .hero-mock,
+        .round-mock {
+          grid-template-columns: 1fr;
+        }
+
+        .diagram-card {
+          min-height: 240px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Ensayos de diagramas</h1>
+      <p class="intro">
+        Estas versiones prueban una idea común: Estado y mercados no son fines
+        en sí mismos, sino instrumentos institucionales al servicio de la
+        sociedad, el desarrollo y el bien común.
+      </p>
+
+      <section class="stack" aria-label="Prototipos de diagramas">
+        <article class="mock">
+          <div class="mock-caption">
+            <div>
+              <h2>A. Portada: instrumentos y fines</h2>
+              <p>Estado y mercados aparecen como instrumentos; sociedad y bien común aparecen como destino.</p>
+            </div>
+            <span class="tag">Más normativo</span>
+          </div>
+          <div class="hero-mock">
+            <div class="hero-copy">
+              <h2>Lecturas económicas para pensar el Perú</h2>
+              <p>
+                Evidencia, mecanismos e instituciones para discutir problemas
+                públicos con el bien común como horizonte.
+              </p>
+              <div class="purpose">
+                <span>Sociedad</span>
+                <span>Instituciones</span>
+                <span>Bien común</span>
+              </div>
+            </div>
+            <div class="diagram-card">
+              <svg viewBox="0 0 460 320" role="img" aria-label="Estado y mercados como instrumentos para el bien común">
+                <rect class="node" x="62" y="76" width="128" height="58" rx="29"></rect>
+                <rect class="node" x="270" y="76" width="128" height="58" rx="29"></rect>
+                <circle class="node-rust fill-rust" cx="230" cy="210" r="64"></circle>
+                <path class="line" d="M160 134l42 42"></path>
+                <path class="line" d="M300 134l-42 42"></path>
+                <path class="line-rust" d="M230 274v25"></path>
+                <text x="91" y="101">Estado</text>
+                <text class="small" x="86" y="119">reglas y capacidades</text>
+                <text x="299" y="101">Mercados</text>
+                <text class="small" x="292" y="119">innovación e inversión</text>
+                <text x="190" y="205">Bien común</text>
+                <text class="small" x="178" y="225">bienestar y oportunidades</text>
+                <text x="198" y="312">Sociedad</text>
+              </svg>
+            </div>
+          </div>
+        </article>
+
+        <article class="mock">
+          <div class="mock-caption">
+            <div>
+              <h2>B. Portada: arquitectura Tirole</h2>
+              <p>La sociedad define fines; la economía ordena incentivos y trade-offs; instituciones y mercados actúan.</p>
+            </div>
+            <span class="tag">Más Tirole</span>
+          </div>
+          <div class="hero-mock">
+            <div class="hero-copy">
+              <h2>Lecturas económicas para pensar el Perú</h2>
+              <p>
+                La economía ayuda a diseñar instituciones, alinear incentivos y
+                evaluar decisiones públicas orientadas al bien común.
+              </p>
+              <div class="purpose">
+                <span>Valores</span>
+                <span>Trade-offs</span>
+                <span>Instituciones</span>
+              </div>
+            </div>
+            <div class="diagram-card">
+              <svg viewBox="0 0 460 320" role="img" aria-label="Arquitectura de economía para el bien común">
+                <rect class="node fill-blue" x="150" y="30" width="160" height="50" rx="25"></rect>
+                <rect class="node fill-green" x="130" y="116" width="200" height="54" rx="27"></rect>
+                <rect class="node" x="48" y="214" width="150" height="54" rx="27"></rect>
+                <rect class="node" x="262" y="214" width="150" height="54" rx="27"></rect>
+                <circle class="node-rust fill-rust" cx="230" cy="244" r="46"></circle>
+                <path class="line" d="M230 80v36"></path>
+                <path class="line" d="M185 170l-44 44"></path>
+                <path class="line" d="M275 170l44 44"></path>
+                <path class="line-rust" d="M230 170v28"></path>
+                <text x="196" y="60">Sociedad</text>
+                <text class="small" x="178" y="76">valores y legitimidad</text>
+                <text x="165" y="145">Evidencia económica</text>
+                <text class="small" x="164" y="162">incentivos, información, trade-offs</text>
+                <text x="80" y="246">Estado</text>
+                <text class="small" x="74" y="263">reglas</text>
+                <text x="306" y="246">Mercados</text>
+                <text class="small" x="304" y="263">dinamismo</text>
+                <text x="196" y="239">Bien</text>
+                <text x="187" y="257">común</text>
+              </svg>
+            </div>
+          </div>
+        </article>
+
+        <article class="mock">
+          <div class="mock-caption">
+            <div>
+              <h2>C. Portada: evidencia hacia decisiones públicas</h2>
+              <p>Más cercano al método del sitio: literatura económica como puente hacia decisiones para el bien común.</p>
+            </div>
+            <span class="tag">Más propio del proyecto</span>
+          </div>
+          <div class="hero-mock">
+            <div class="hero-copy">
+              <h2>Lecturas económicas para pensar el Perú</h2>
+              <p>
+                Rondas para pasar de papers y evidencia comparada a preguntas
+                públicas mejor formuladas para el país.
+              </p>
+              <div class="purpose">
+                <span>Hallazgos</span>
+                <span>Mecanismos</span>
+                <span>Decisiones públicas</span>
+              </div>
+            </div>
+            <div class="diagram-card">
+              <svg viewBox="0 0 460 320" role="img" aria-label="Evidencia hacia decisiones públicas y bien común">
+                <rect class="node" x="40" y="64" width="112" height="54" rx="27"></rect>
+                <rect class="node" x="174" y="64" width="122" height="54" rx="27"></rect>
+                <rect class="node" x="318" y="64" width="102" height="54" rx="27"></rect>
+                <rect class="node fill-green" x="126" y="172" width="208" height="58" rx="29"></rect>
+                <rect class="node-rust fill-rust" x="154" y="252" width="152" height="48" rx="24"></rect>
+                <path class="line" d="M152 91h22"></path>
+                <path class="line" d="M296 91h22"></path>
+                <path class="line" d="M235 118v54"></path>
+                <path class="line-rust" d="M230 230v22"></path>
+                <text x="68" y="95">Evidencia</text>
+                <text x="200" y="95">Mecanismos</text>
+                <text x="352" y="95">Perú</text>
+                <text x="168" y="206">Decisiones públicas</text>
+                <text x="190" y="283">Bien común</text>
+              </svg>
+            </div>
+          </div>
+        </article>
+
+        <article class="mock">
+          <div class="mock-caption">
+            <div>
+              <h2>D. Encabezado de ronda: mapa reducido translúcido</h2>
+              <p>Para cada ronda, el mapa reducido puede acompañar el título a la derecha como guía visual sin competir con la lectura.</p>
+            </div>
+            <span class="tag">Para páginas de ronda</span>
+          </div>
+          <div class="round-mock">
+            <div class="round-copy">
+              <p class="eyebrow">Ronda 1</p>
+              <h2>¿Puede haber buenos mercados sin un Estado capaz?</h2>
+              <p>Estado, mercados e instituciones: complementariedad antes que polarización.</p>
+            </div>
+            <div class="diagram-card ghost-diagram">
+              <svg viewBox="0 0 460 320" role="img" aria-label="Mapa reducido translúcido para encabezado de ronda">
+                <rect class="node" x="40" y="82" width="112" height="54" rx="27"></rect>
+                <rect class="node" x="174" y="82" width="122" height="54" rx="27"></rect>
+                <rect class="node" x="318" y="82" width="102" height="54" rx="27"></rect>
+                <rect class="node fill-green" x="126" y="190" width="208" height="58" rx="29"></rect>
+                <path class="line" d="M152 109h22"></path>
+                <path class="line" d="M296 109h22"></path>
+                <path class="line" d="M235 136v54"></path>
+                <text x="68" y="113">Evidencia</text>
+                <text x="200" y="113">Mecanismos</text>
+                <text x="352" y="113">Perú</text>
+                <text x="178" y="224">Preguntas públicas</text>
+              </svg>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
