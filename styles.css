@@ -68,16 +68,15 @@ a {
 }
 
 .archive-title {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(330px, 40%);
-  gap: 2rem;
-  align-items: center;
+  position: relative;
   max-width: 1120px;
   margin: 0 auto;
   padding: 2.1rem 1.25rem 2.7rem;
 }
 
 .archive-title-copy {
+  position: relative;
+  z-index: 1;
   min-width: 0;
 }
 
@@ -91,14 +90,16 @@ a {
 }
 
 .header-diagram {
+  pointer-events: none;
   display: grid;
   place-items: center;
   margin: 0;
   min-width: 0;
-  border: 1px solid rgba(2, 11, 77, 0.08);
+  border: 1px solid rgba(2, 11, 77, 0.05);
   border-radius: 18px;
-  background: rgba(255, 255, 255, 0.68);
-  box-shadow: 0 16px 44px rgba(2, 11, 77, 0.08);
+  background: rgba(255, 255, 255, 0.32);
+  box-shadow: none;
+  opacity: 0.58;
 }
 
 .header-diagram svg {
@@ -162,6 +163,12 @@ a {
 }
 
 .common-good-diagram {
+  position: absolute;
+  right: 1.25rem;
+  top: 50%;
+  z-index: 0;
+  width: min(42%, 430px);
+  transform: translateY(-50%);
   padding: 0.8rem;
 }
 
@@ -556,16 +563,15 @@ a {
 }
 
 .page-title {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(300px, 36%);
-  gap: 2rem;
-  align-items: center;
+  position: relative;
   max-width: 1120px;
   margin: 0 auto;
   padding: 3rem 1.25rem;
 }
 
 .page-title-copy {
+  position: relative;
+  z-index: 1;
   min-width: 0;
 }
 
@@ -581,8 +587,14 @@ a {
 }
 
 .round-flow-diagram {
+  position: absolute;
+  right: 1.25rem;
+  top: 50%;
+  z-index: 0;
+  width: min(36%, 380px);
+  transform: translateY(-50%);
   padding: 0.65rem;
-  opacity: 0.88;
+  opacity: 0.46;
   box-shadow: none;
 }
 
@@ -814,16 +826,14 @@ a {
   }
 
   .archive-title {
-    grid-template-columns: 1fr;
     padding-top: 1.25rem;
   }
 
   .header-diagram {
-    max-width: 520px;
+    display: none;
   }
 
   .page-title {
-    grid-template-columns: 1fr;
     padding-top: 2rem;
   }
 
