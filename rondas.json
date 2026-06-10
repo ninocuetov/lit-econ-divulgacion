@@ -12,18 +12,22 @@
     "docx": "contenido/ronda_01_estado_mercado/publicacion/Ronda_01_Estado_y_mercados.docx",
     "mechanisms": [
       {
+        "icon": "search",
         "label": "Diagnóstico",
         "text": "Identificar la restricción principal antes de elegir una reforma."
       },
       {
+        "icon": "nodes",
         "label": "Coordinación",
         "text": "Usar capacidades públicas para resolver fallas que el mercado no corrige solo."
       },
       {
+        "icon": "balance",
         "label": "Economía política",
         "text": "Reconocer que las reformas cambian incentivos, ganadores y coaliciones."
       },
       {
+        "icon": "steps",
         "label": "Aprendizaje productivo",
         "text": "Apoyar sectores o capacidades con disciplina, evaluación y salida."
       }
@@ -56,18 +60,22 @@
     "docx": "contenido/ronda_01/publicacion/Ronda_01_Estado_burocracia_y_captura.docx",
     "mechanisms": [
       {
+        "icon": "office",
         "label": "Burocracia",
         "text": "Selección, incentivos, autonomía y organización afectan la capacidad de ejecutar."
       },
       {
+        "icon": "shield",
         "label": "Corrupción",
         "text": "Las reglas y controles modifican costos, oportunidades y formas de ocultamiento."
       },
       {
+        "icon": "route",
         "label": "Servicio efectivo",
         "text": "Que un servicio exista en presupuesto o norma no garantiza que llegue al ciudadano."
       },
       {
+        "icon": "capture",
         "label": "Captura",
         "text": "Intereses organizados pueden influir reglas, supervisión o decisiones públicas."
       }

@@ -18,6 +18,21 @@ const inlineMarkdown = (value) =>
     .replace(/`([^`]+)`/g, "<code>$1</code>")
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
 
+function renderMechanismIcon(type = "nodes") {
+  const icons = {
+    search: `<svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="21" cy="21" r="11"></circle><path d="M30 30l9 9"></path><path d="M16 21h10"></path></svg>`,
+    nodes: `<svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="12" cy="24" r="5"></circle><circle cx="34" cy="14" r="5"></circle><circle cx="36" cy="34" r="5"></circle><path d="M17 22l12-6"></path><path d="M17 26l14 6"></path></svg>`,
+    balance: `<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 9v30"></path><path d="M13 16h22"></path><path d="M16 16l-7 13h14l-7-13z"></path><path d="M32 16l-7 13h14l-7-13z"></path><path d="M18 39h12"></path></svg>`,
+    steps: `<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M9 36h9v-8h9v-8h12"></path><path d="M11 15h8"></path><path d="M11 21h12"></path></svg>`,
+    office: `<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 39V10h20v29"></path><path d="M10 39h28"></path><path d="M19 16h3M26 16h3M19 23h3M26 23h3M19 30h3M26 30h3"></path></svg>`,
+    shield: `<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 8l15 6v10c0 9-6 15-15 18C15 39 9 33 9 24V14l15-6z"></path><path d="M18 24l4 4 8-9"></path></svg>`,
+    route: `<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M12 36c8-2 6-12 14-12s7-9 15-11"></path><circle cx="10" cy="37" r="4"></circle><circle cx="41" cy="13" r="4"></circle><path d="M20 12h9"></path><path d="M20 17h14"></path></svg>`,
+    capture: `<svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="14"></circle><circle cx="24" cy="24" r="6"></circle><path d="M24 5v8M24 35v8M5 24h8M35 24h8"></path></svg>`,
+  };
+
+  return `<span class="mechanism-icon">${icons[type] || icons.nodes}</span>`;
+}
+
 function renderMarkdown(source, basePath = "") {
   const lines = source.replace(/\r\n/g, "\n").split("\n");
   const html = [];
@@ -94,7 +109,14 @@ function renderIndex() {
       (round) => {
         const mechanismPreview = (round.mechanisms || [])
           .slice(0, 4)
-          .map((item) => `<span>${escapeHtml(item.label)}</span>`)
+          .map(
+            (item) => `
+              <span>
+                ${renderMechanismIcon(item.icon)}
+                ${escapeHtml(item.label)}
+              </span>
+            `
+          )
           .join("");
 
         return `
@@ -145,7 +167,10 @@ function renderMechanismMap(round) {
     .map(
       (item, index) => `
         <li>
-          <span class="mechanism-step">${index + 1}</span>
+          <div class="mechanism-head">
+            ${renderMechanismIcon(item.icon)}
+            <span class="mechanism-step">${index + 1}</span>
+          </div>
           <strong>${escapeHtml(item.label)}</strong>
           <p>${escapeHtml(item.text)}</p>
         </li>
