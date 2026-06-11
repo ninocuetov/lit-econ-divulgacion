@@ -558,6 +558,16 @@ a {
   background: var(--soft);
 }
 
+.civic-nav .back-link {
+  border-left-color: var(--accent-2);
+  background: #f6f1ec;
+  color: #020b4d;
+}
+
+.civic-nav .back-link::before {
+  content: "< ";
+}
+
 .civic-article section {
   scroll-margin-top: 1rem;
 }
