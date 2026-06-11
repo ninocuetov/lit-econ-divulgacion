@@ -10,7 +10,7 @@ const VERSION_LABELS = {
   technical: "Nota técnica",
 };
 
-const CONTENT_VERSION = "20260610-17";
+const CONTENT_VERSION = "20260610-18";
 
 const escapeHtml = (value) =>
   value
