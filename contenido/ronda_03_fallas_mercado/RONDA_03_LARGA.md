@@ -1,106 +1,375 @@
 # Ronda 3: ¿Cuándo los mercados no bastan?
 
-Fallas de mercado, poder económico y reglas para el bien común.
+## Para abrir la conversación
 
-## Introducción
+La primera ronda partía de una idea: los buenos mercados no aparecen solos.
+Necesitan Estado capaz, reglas, información, competencia, derechos,
+infraestructura y confianza. La segunda ronda, todavía interna, mira el otro
+lado del problema: el Estado también puede fallar por baja capacidad,
+corrupción, burocracia deficiente o captura.
 
-La primera ronda defendía una idea básica: los buenos mercados no aparecen en el vacío. Necesitan reglas, derechos, información, infraestructura, competencia y capacidades estatales. La segunda ronda, todavía interna, mira el lado opuesto: el Estado también puede fallar por baja capacidad, corrupción, mala burocracia o captura.
+Esta tercera ronda cierra el primer arco preguntando por las fallas del otro
+instrumento central: los mercados. No para negar su importancia, sino para
+entender cuándo dejan de coordinar bien y qué tipo de intervención pública
+puede ayudar.
 
-Esta tercera ronda cierra el primer arco editorial preguntando por el otro gran instrumento de la vida económica: los mercados. La pregunta no es si los mercados son buenos o malos. La pregunta es cuándo coordinan bien, cuándo dejan de hacerlo y qué tipo de intervención pública puede mejorar el resultado sin reemplazar innecesariamente la iniciativa privada.
+El punto no es decir “el mercado falla, entonces el Estado debe reemplazarlo”.
+Esa conclusión sería demasiado rápida. La intervención pública también puede
+fallar. La pregunta útil es más precisa: qué falla, por qué falla, cómo afecta
+el funcionamiento del mercado y qué arreglo institucional puede corregir el
+problema sin crear uno mayor.
 
-La idea central es sencilla: reconocer una falla de mercado no basta para justificar cualquier intervención. Pero negar las fallas de mercado tampoco ayuda. La discusión seria exige diagnosticar el mecanismo: información imperfecta, externalidades, bienes públicos, poder de mercado, costos de transacción, límites morales o problemas de coordinación.
+## Mapa de la ronda
 
-## Referencias rápidas a los clásicos
+La discusión se organiza alrededor de cinco ideas:
 
-Antes de entrar a las lecturas principales, conviene tener a la mano cuatro intuiciones clásicas.
+- la información imperfecta puede hacer que elegir no baste para disciplinar calidad;
+- el poder de mercado puede debilitar competencia, salarios, inversión y dinamismo;
+- las externalidades hacen que el precio privado no refleje costos sociales;
+- los bienes públicos se subproducen cuando nadie captura todo el beneficio;
+- los mercados necesitan reglas orientadas al bien común, no solo eficiencia privada.
 
-**Akerlof** mostró que cuando la calidad no se observa bien, los malos productos pueden desplazar a los buenos. El problema no es que las personas no quieran calidad, sino que no pueden distinguirla antes de comprar.
+Antes de entrar a las lecturas, conviene ubicar dos clásicos. **Akerlof** mostró
+que, cuando la calidad no se observa, los malos productos pueden desplazar a
+los buenos. Eso afecta al mercado porque reduce confianza, castiga a los
+proveedores de calidad y puede achicar transacciones valiosas. **Coase** mostró
+que las externalidades dependen de derechos, negociación y costos de
+transacción. Eso afecta al mercado porque una transacción privada puede imponer
+costos sobre terceros que no participan en el precio ni en el contrato.
 
-**Coase** enseñó que las externalidades no se resuelven solo nombrándolas. Importan los derechos de propiedad, los costos de transacción y la posibilidad real de negociar o hacer cumplir acuerdos.
+## 1. Información imperfecta: cuando la elección no alcanza
 
-**Samuelson** formalizó el problema de bienes públicos: si no se puede excluir a quienes se benefician y el consumo de uno no reduce el de otros, el mercado puede subproveerlos.
+*Frictions or Mental Gaps: What's Behind the Information We (Don't) Use and When Do We Care?* — Handel y Schwartzstein (2018)
 
-**Stiglitz y Spence** ampliaron la economía de la información: selección adversa, señalización, screening y mercados incompletos muestran que la información imperfecta cambia profundamente el funcionamiento de los mercados.
+### La pregunta
 
-Estas referencias no son la ronda. Son el mapa inicial. Las lecturas principales actualizan esas intuiciones con evidencia, revisiones recientes y una discusión más amplia sobre regulación, desarrollo y bien común.
+¿Por qué las personas toman malas decisiones incluso cuando existe información
+disponible? Handel y Schwartzstein revisan una literatura que va más allá de la
+asimetría informativa clásica: no basta preguntar si la información existe,
+sino si las personas pueden encontrarla, procesarla y usarla bien.
 
-## 1. Información imperfecta: cuando no sabemos usar o interpretar lo que sabemos
+### Evidencia y argumento
 
-En muchos mercados, el problema no es solo que falte información. También puede ocurrir que la información exista, pero sea costosa de buscar, difícil de interpretar o poco saliente al momento de decidir. En educación, salud, crédito, pensiones, seguros, vivienda o servicios profesionales, el consumidor suele enfrentar decisiones complejas, con consecuencias de largo plazo y calidad incierta.
+El artículo distingue entre fricciones y brechas mentales. Las fricciones
+incluyen costos de búsqueda, costos de cambio, dificultad para comparar
+productos o complejidad contractual. Las brechas mentales incluyen atención
+limitada, creencias equivocadas, sesgos, falta de saliencia o modelos
+incorrectos sobre cómo funciona un producto.
 
-Handel y Schwartzstein proponen una distinción útil. A veces las malas decisiones se explican por fricciones: costos de búsqueda, costos de cambio, dificultad para comparar alternativas. Otras veces aparecen “brechas mentales”: creencias equivocadas, atención limitada, exceso de confianza o rasgos relevantes que no están presentes en la mente del consumidor cuando decide.
+El aporte es importante porque actualiza el problema clásico de Akerlof. En
+*The Market for Lemons*, si el comprador no puede observar calidad, el precio
+refleja calidad promedio. Los vendedores buenos no reciben el valor que
+merecen, salen del mercado o reducen calidad. El resultado perjudica al mercado:
+menos confianza, menos transacciones buenas y persistencia de productos malos.
 
-Esta diferencia importa para la política pública. Si el problema es falta de información, puede bastar con transparencia. Si el problema es que la información es difícil de procesar, quizá se necesiten estándares, rankings simples, defaults, certificaciones, asesoría o reglas que eliminen opciones abusivas. No toda información adicional mejora decisiones.
+Handel y Schwartzstein muestran que incluso cuando hay información, el problema
+puede persistir. Si comparar planes de salud, créditos, pensiones, colegios o
+seguros es costoso o cognitivamente difícil, la competencia no disciplina
+suficientemente. Las empresas pueden competir en dimensiones visibles y
+esconder costos, riesgos o baja calidad en dimensiones menos observables.
 
-Para el Perú, esta lectura es muy sugerente. Muchos mercados operan con baja confianza y baja capacidad de verificación: educación privada de calidad desigual, servicios de salud, créditos informales, alquileres, construcción, servicios técnicos, alimentos, transporte, capacitación laboral. En esos casos, “más mercado” puede significar más opciones, pero no necesariamente mejores decisiones si la calidad no es observable.
+Esto cambia la política pública. Si el problema es falta de información, puede
+ayudar publicar datos. Si el problema es procesamiento, quizá se necesiten
+estándares, comparadores simples, certificación, defaults, reglas contra
+cláusulas abusivas o mecanismos de reclamo.
 
-La pregunta no es si el consumidor debe elegir libremente. La pregunta es qué condiciones hacen que esa elección sea real: información comprensible, reputación verificable, protección contra fraude, estándares mínimos y mecanismos de reclamo.
+### Qué aporta
 
-## 2. Poder de mercado: cuando la competencia no disciplina lo suficiente
+Para el Perú, esta lectura ayuda a pensar mercados donde la calidad es difícil
+de observar: educación privada, salud, crédito informal, capacitación laboral,
+alquileres, construcción, transporte, servicios profesionales y productos
+financieros. En esos mercados, más opciones no garantizan mejores decisiones si
+los usuarios no pueden distinguir calidad o riesgos.
 
-Otra falla aparece cuando las empresas no enfrentan presión competitiva suficiente. En teoría, la competencia empuja precios hacia costos, premia eficiencia y castiga mala calidad. En la práctica, puede haber barreras de entrada, economías de escala, control de insumos, redes, marcas, datos, permisos, influencia política o concentración territorial.
+La lectura también muestra por qué proteger al consumidor no es una agenda
+contraria al mercado. Puede ser una condición para que el mercado funcione
+mejor. Si la información es comprensible y verificable, los proveedores buenos
+tienen más incentivos para invertir en calidad.
 
-Syverson revisa el debate macroeconómico sobre poder de mercado y muestra que no es un tema simple. Medir markups, concentración o ganancias requiere cuidado. Un margen alto puede reflejar poder de mercado, pero también calidad, innovación, intangibles o costos fijos. La concentración nacional puede decir poco si la competencia relevante es local; y la concentración local puede importar mucho aunque los datos agregados no la muestren.
+### Límite
 
-De Loecker, Eeckhout y Unger empujan el debate con evidencia empírica: documentan un aumento de markups en Estados Unidos desde 1980, concentrado especialmente en la parte alta de la distribución. Su argumento conecta poder de mercado con tendencias macro: menor participación laboral, menor dinamismo e inversión más débil.
+El texto no dice qué instrumento específico debe usarse en cada mercado. Una
+mala regulación informativa puede producir papeleo sin mejorar decisiones. Para
+aplicarlo al Perú, habría que identificar si el problema dominante es falta de
+datos, dificultad de comparación, sesgos, baja fiscalización o ausencia de
+alternativas reales.
 
-La implicancia para Perú no es copiar el diagnóstico estadounidense. Es usar la pregunta: ¿dónde la competencia es real y dónde solo formal? En mercados pequeños, territorios aislados o sectores regulados, puede haber pocos oferentes, información limitada y barreras de entrada. También puede haber empresas eficientes que generan productividad y, al mismo tiempo, posiciones difíciles de desafiar.
+## 2. Poder de mercado: cuando competir no es tan fácil
 
-La política de competencia debería distinguir innovación de renta, escala eficiente de abuso, y regulación necesaria de barrera artificial. No se trata de castigar tamaño, sino de proteger la posibilidad de entrada, comparación, movilidad y disciplina competitiva.
+*Macroeconomics and Market Power: Context, Implications, and Open Questions* — Syverson (2019)
+
+### La pregunta
+
+¿Está aumentando el poder de mercado y qué implicancias tiene para la economía?
+Syverson revisa el debate sobre concentración, markups, participación laboral,
+inversión y dinamismo empresarial.
+
+### Evidencia y argumento
+
+La revisión parte de una cautela: poder de mercado no es lo mismo que tamaño.
+Una empresa grande puede ser eficiente, innovadora o producir a menor costo.
+Pero también puede tener poder si enfrenta poca competencia, controla datos,
+redes, permisos, insumos, distribución o barreras de entrada.
+
+Syverson muestra que medir poder de mercado es difícil. La concentración
+nacional puede ocultar competencia local; la concentración local puede importar
+aunque los datos agregados no la muestren. Los markups requieren estimar costos
+marginales, algo empíricamente complejo. Aun así, el debate importa porque el
+poder de mercado puede afectar precios, calidad, salarios, inversión,
+innovación y entrada de nuevas firmas.
+
+Aquí se conecta con evidencia empírica como la de De Loecker, Eeckhout y Unger,
+quienes documentan aumento de markups en Estados Unidos desde 1980 y discuten
+posibles implicancias macroeconómicas. La lectura prudente no es copiar ese
+resultado al Perú, sino usar la pregunta: ¿dónde la competencia disciplina y
+dónde solo parece existir?
+
+### Qué aporta
+
+Para el Perú, este enfoque permite mirar mercados nacionales y locales con más
+cuidado. Puede haber sectores con muchas transacciones pero poca competencia
+efectiva por barreras de entrada, informalidad selectiva, permisos, control de
+canales, escala mínima, financiamiento, datos o redes políticas.
+
+También ayuda a diferenciar productividad de renta. Una firma puede ganar más
+porque innovó, redujo costos y sirve mejor. Otra puede ganar más porque bloquea
+entrada, captura reglas o aprovecha baja fiscalización. La política pública
+debe proteger competencia, no castigar tamaño por sí mismo.
+
+### Límite
+
+La literatura sobre poder de mercado es empíricamente exigente. No basta mirar
+concentración o precios altos para concluir abuso. Se necesita evidencia sobre
+costos, entrada, sustitutos, calidad, márgenes, regulación y mercado relevante.
+En Perú, esa evidencia suele ser incompleta, especialmente en mercados locales
+o informales.
 
 ## 3. Externalidades: cuando el precio no recoge todos los costos
 
-Las externalidades ocurren cuando una decisión privada genera costos o beneficios que no se reflejan plenamente en el precio. Contaminación, ruido, congestión, deforestación, epidemias, inseguridad o deterioro de cuencas son ejemplos claros. El mercado puede coordinar bien entre comprador y vendedor, pero dejar fuera a terceros afectados.
+*Envirodevonomics: A Research Agenda for an Emerging Field* — Greenstone y Jack (2015)
 
-Greenstone y Jack desarrollan una agenda especialmente relevante para países en desarrollo: la intersección entre ambiente y desarrollo. Su punto de partida es fuerte: la mala calidad ambiental genera costos sustantivos en salud y productividad, pero la disposición a pagar observada por mejoras ambientales puede parecer baja. Esa paradoja obliga a mirar ingresos, costos de provisión, fallas políticas, derechos débiles, mercados de capital incompletos e instituciones.
+### La pregunta
 
-Esto es central para el Perú. Muchos conflictos ambientales no son solo desacuerdos culturales o políticos; también son fallas institucionales para definir derechos, medir daños, distribuir beneficios, hacer cumplir estándares y procesar reclamos. Minería formal e informal, contaminación de ríos, deforestación, aire urbano, residuos, transporte y expansión urbana muestran que los costos no siempre recaen sobre quien decide.
+¿Cómo pensar los problemas ambientales en países en desarrollo? Greenstone y
+Jack proponen unir economía ambiental y economía del desarrollo para estudiar
+contaminación, salud, productividad, instituciones y política pública.
 
-La lección no es que toda externalidad se resuelva con prohibición. Puede haber impuestos, permisos, estándares, monitoreo, responsabilidad legal, compensaciones, ordenamiento territorial o provisión pública. La elección depende de información, capacidad estatal, riesgo de captura y posibilidad de cumplimiento.
+### Evidencia y argumento
 
-## 4. Bienes públicos y coordinación: cuando nadie captura todo el beneficio
+Las externalidades ocurren cuando una decisión privada genera costos o
+beneficios sobre terceros que no se reflejan plenamente en el precio. Coase
+ayuda a entender por qué esto afecta al mercado: si los derechos no están
+claros o negociar es costoso, quien contamina puede no pagar el daño y quien
+lo sufre no puede hacerlo valer. El precio privado subestima el costo social.
 
-Hay bienes cuyo beneficio se comparte ampliamente y que el mercado tiende a subproveer. Seguridad, prevención de desastres, información estadística, ciencia básica, infraestructura de coordinación, sanidad, confianza pública y ciertas formas de protección ambiental tienen rasgos de bien público o de bien colectivo.
+Greenstone y Jack muestran que, en países en desarrollo, el problema ambiental
+no puede analizarse solo como preferencia por aire limpio. Hay restricciones de
+ingreso, baja capacidad de monitoreo, derechos débiles, información incompleta,
+costos de cumplimiento, corrupción y conflictos distributivos.
 
-El problema no es que nadie los valore. El problema es que cada actor privado puede preferir que otros paguen. Si no puedo excluir a quien se beneficia, mi incentivo individual para financiarlo cae. Si todos razonan así, el resultado colectivo puede ser pobre aunque todos preferirían vivir en una sociedad con más seguridad, mejor información, menos riesgo sanitario o mejor infraestructura.
+La mala calidad ambiental puede reducir salud y productividad. Pero aun si los
+costos sociales son altos, las políticas pueden fallar si no hay medición,
+fiscalización, sanción, compensación o legitimidad territorial. La externalidad
+es económica, pero su corrección es institucional.
 
-En Perú, este punto ayuda a leer problemas recurrentes: baja inversión en prevención, debilidad de información pública, escasa coordinación metropolitana, inseguridad, informalidad en cadenas productivas, baja inversión en investigación y servicios territoriales. Muchas veces el beneficio social de coordinar es alto, pero ningún actor aislado puede apropiarse de todo el retorno.
+### Qué aporta
 
-Aquí el Estado puede cumplir un rol de coordinación, provisión o financiamiento. Pero también puede fallar. La pregunta práctica es cómo diseñar instituciones que produzcan bienes colectivos con transparencia, continuidad y control ciudadano.
+Para el Perú, esta lectura es directa. Minería formal e informal, contaminación
+de ríos, deforestación, aire urbano, residuos, congestión, uso de suelo y
+conflictos territoriales son problemas donde los costos no siempre recaen sobre
+quien decide.
 
-## 5. Mercados, ética y bien común
+La lectura evita dos simplificaciones. No toda actividad privada incorpora sus
+costos sociales. Pero tampoco toda regulación ambiental funciona por el simple
+hecho de existir. Se necesitan datos, monitoreo, derechos claros, autoridad y
+mecanismos de reparación.
 
-Tirole es útil para cerrar la ronda porque evita dos caricaturas. No trata a los mercados como mecanismos moralmente autosuficientes ni como espacios inevitablemente sospechosos. Los entiende como instrumentos: poderosos, útiles y productivos, pero dependientes de reglas e instituciones.
+### Límite
 
-Desde esa perspectiva, la regulación no es simplemente “intervenir” desde fuera. Es parte del diseño institucional que hace posible que los incentivos privados se alineen con fines sociales. A veces regular significa prohibir; otras, informar, crear competencia, fijar estándares, separar funciones, diseñar subastas, limitar conflictos de interés o proteger usuarios vulnerables.
+La revisión ofrece una agenda de investigación, no una receta para cada
+conflicto peruano. Para aplicarla se necesita evidencia local sobre daños,
+costos, capacidades de fiscalización, distribución de beneficios y legitimidad
+de las instituciones.
 
-La dimensión ética aparece porque no todo lo valioso se expresa bien en precios. Salud, educación, justicia, dignidad, seguridad, ciudadanía y ambiente tienen dimensiones que exceden la disposición de pago. La economía puede ayudar a medir costos, incentivos y efectos no deseados; no puede decidir por sí sola qué bienes deben tratarse como derechos, qué desigualdades son aceptables o qué riesgos debe compartir una sociedad.
+## 4. Bienes públicos: cuando nadie captura todo el beneficio
 
-Esta es la conexión con el marco cívico del proyecto. Los mercados y el Estado son instrumentos para una sociedad de ciudadanos libres e iguales. El bien común no exige unanimidad, pero sí exige discutir qué instituciones permiten cooperación, libertad, equidad y responsabilidad compartida.
+*The Pure Theory of Public Expenditure* — Samuelson (1954)
 
-## Inferencias para el Perú
+### La pregunta
 
-Primero, la informalidad puede leerse como un conjunto de mercados con baja confianza, baja protección y baja capacidad de cumplimiento. No basta decir que hay demasiada regulación o demasiado poco Estado. Hay que preguntar qué información falta, qué riesgos no se cubren, qué barreras impiden formalizar y qué reglas no generan beneficios creíbles.
+¿Por qué ciertos bienes tienden a subproducirse si se dejan solo al mercado?
+Samuelson formaliza el problema de los bienes públicos: bienes cuyo consumo es
+no rival y de los que es difícil excluir beneficiarios.
 
-Segundo, en educación y salud, la información imperfecta es central. Los usuarios pueden observar precio, ubicación o promesas, pero no siempre calidad. Eso abre espacio para baja calidad persistente, reputación opaca y decisiones difíciles de corregir.
+### Evidencia y argumento
 
-Tercero, en ambiente y territorio, las externalidades son decisivas. Si los costos recaen sobre comunidades, generaciones futuras o ecosistemas sin representación efectiva, el precio privado subestima el costo social.
+El argumento es teórico, pero fundamental. Si una persona puede beneficiarse de
+un bien sin pagar por él, tiene incentivos a esperar que otros lo financien. Si
+muchos actúan así, el bien se subproduce aunque todos preferirían vivir en una
+sociedad donde exista.
 
-Cuarto, en competencia, importa distinguir eficiencia de poder. Una empresa grande puede ser productiva y generar beneficios; también puede bloquear entrada o influir reglas. La política pública debe mirar mecanismos, no etiquetas.
+Esto afecta al mercado porque hay inversiones cuyo retorno social supera el
+retorno privado apropiable. Seguridad, información pública, ciencia básica,
+prevención de desastres, datos, vigilancia sanitaria, confianza institucional o
+infraestructura de coordinación pueden beneficiar a muchos actores sin que uno
+solo capture todo el beneficio.
 
-Quinto, reconocer una falla de mercado no elimina el problema de capacidad estatal. Una mala regulación puede agravar la falla, crear corrupción o proteger incumbentes. Por eso el diagnóstico debe incluir la falla del mercado y la falla potencial de la intervención.
+En desarrollo productivo, este punto es crucial. Estándares, laboratorios,
+certificaciones, reputación exportadora, formación técnica o información de
+mercados pueden tener rasgos de bien público sectorial. Si nadie coordina, cada
+firma puede invertir menos de lo socialmente deseable.
+
+### Qué aporta
+
+Para el Perú, esta lectura ayuda a entender por qué algunos problemas no se
+resuelven solo con emprendimiento individual. Muchas brechas productivas y
+territoriales requieren bienes colectivos: seguridad, conectividad, información,
+calidad regulatoria, infraestructura, prevención y confianza.
+
+También ayuda a ordenar la discusión sobre Estado. El Estado no interviene solo
+para reemplazar al mercado. A veces interviene para producir condiciones que
+hacen posibles mejores mercados.
+
+### Límite
+
+Samuelson ofrece una base teórica muy abstracta. No resuelve problemas de
+implementación: qué nivel de gobierno debe proveer, cómo financiar, cómo evitar
+captura, cómo mantener calidad y cómo rendir cuentas. Para eso se necesita
+combinar teoría de bienes públicos con economía política y capacidad estatal.
+
+## 5. Mercados, regulación y bien común
+
+*Economics for the Common Good* — Tirole (2017)
+
+### La pregunta
+
+¿Cómo puede la economía contribuir al bien común sin reducir la vida pública a
+precios y eficiencia? Tirole ofrece una discusión amplia sobre mercados,
+regulación, incentivos, expertos, moralidad y fines sociales.
+
+### Evidencia y argumento
+
+Tirole no trata a los mercados como moralmente autosuficientes ni como
+inevitablemente dañinos. Los entiende como instrumentos poderosos que requieren
+reglas. La pregunta no es si debe haber mercado o Estado en abstracto, sino
+cómo diseñar instituciones para que los incentivos privados se alineen con
+objetivos sociales.
+
+La regulación, en esta mirada, no es solo prohibición. Puede ser diseño de
+subastas, estándares, transparencia, competencia, reglas de acceso, protección
+de usuarios, separación de funciones o incentivos a innovación. Regular bien
+exige entender información asimétrica, poder de mercado, comportamiento
+estratégico y riesgo de captura.
+
+La dimensión ética es central. Salud, educación, justicia, ambiente, seguridad,
+privacidad y dignidad no se agotan en disposición de pago. La economía puede
+mostrar costos, incentivos y efectos no deseados, pero no decide por sí sola
+qué bienes deben tratarse como derechos ni qué desigualdades son aceptables.
+
+### Qué aporta
+
+Tirole permite conectar esta ronda con el marco cívico del proyecto. Los
+mercados son instrumentos para una sociedad de ciudadanos, no fines últimos.
+Cuando funcionan bien, amplían opciones, innovación y cooperación. Cuando
+fallan, pueden producir abuso, exclusión, daño ambiental o pérdida de
+confianza.
+
+Para el Perú, esto sugiere discutir regulación con menos reflejo ideológico:
+ni toda regla es progreso ni toda desregulación es libertad. La pregunta es qué
+regla alinea mejor incentivos privados con fines públicos, bajo capacidad
+estatal real.
+
+### Límite
+
+El libro es amplio y no ofrece un estudio empírico específico sobre el Perú.
+Su aporte está en articular economía, ética e instituciones. Para convertirlo
+en política pública se requiere evidencia sectorial y diseño regulatorio
+concreto.
+
+## Reflexión para el Perú
+
+### Lo que la literatura permite afirmar
+
+Estas lecturas respaldan una idea común: los mercados pueden fallar por
+información imperfecta, poder de mercado, externalidades, bienes públicos y
+límites éticos. En esos casos, el precio privado puede dejar de reflejar calidad,
+costos sociales, beneficios colectivos o poder de negociación.
+
+Pero la literatura también advierte que la intervención pública no corrige
+automáticamente esos problemas. Regular exige información, capacidad,
+legitimidad, fiscalización y protección contra captura.
+
+### Lo que sugieren para el Perú
+
+Una hipótesis razonable es que muchos mercados peruanos funcionan en una zona
+intermedia: no son mercados competitivos ideales, pero tampoco espacios que el
+Estado pueda corregir fácilmente. Hay baja confianza, información incompleta,
+heterogeneidad territorial, informalidad, externalidades ambientales y
+capacidad estatal desigual.
+
+Esto vuelve insuficiente la pregunta “¿más mercado o más Estado?”. Una pregunta
+mejor sería: ¿qué falla concreta observamos y qué institución tiene más
+capacidad para corregirla?
+
+### Respuesta tentativa
+
+El Perú necesita mercados más competitivos, pero también más confiables; más
+iniciativa privada, pero con mejores reglas; más regulación donde hay daño o
+abuso, pero con más capacidad estatal y menos captura. La discusión seria no es
+Estado contra mercado. Es diagnóstico institucional: información, competencia,
+externalidades, bienes públicos y bien común.
 
 ## Preguntas para discutir
 
-- ¿En qué mercados peruanos la calidad es más difícil de observar antes de comprar?
-- ¿Qué externalidades ambientales o territoriales están peor medidas o peor compensadas?
-- ¿Dónde el problema central es poder de mercado y dónde es falta de escala o baja productividad?
-- ¿Qué bienes deberían garantizarse como derechos y no depender solo de capacidad de pago?
-- ¿Qué intervención pública corrige una falla sin crear captura, corrupción o barreras innecesarias?
-- ¿Qué evidencia local necesitamos para distinguir intuiciones razonables de políticas justificables?
+1. ¿Qué mercados peruanos funcionan mal porque la calidad no se observa?
+2. ¿Dónde hay poder de mercado y dónde solo hay empresas grandes pero eficientes?
+3. ¿Qué externalidades ambientales o territoriales están peor medidas?
+4. ¿Qué bienes públicos productivos son más urgentes para el desarrollo regional?
+5. ¿Qué regulación puede corregir una falla sin convertirse en captura?
+6. ¿Qué evidencia local necesitamos antes de intervenir?
 
-## Conclusión
+## Áreas económicas
 
-Los mercados son mecanismos extraordinarios para coordinar decisiones privadas, revelar información e incentivar innovación. Pero no siempre bastan. Cuando hay información imperfecta, externalidades, bienes públicos, poder de mercado o límites éticos, los precios pueden dejar de reflejar costos y beneficios sociales.
+Organización industrial; economía pública; economía de la información;
+economía ambiental; economía del desarrollo; economía de la regulación;
+economía política; bienestar social.
 
-La respuesta no es abandonar el mercado ni idealizar al Estado. La respuesta es diagnosticar la falla, comparar arreglos institucionales y diseñar reglas que acerquen los incentivos privados al bien común. En una sociedad democrática, la economía no reemplaza la deliberación pública; la vuelve más exigente.
+**Códigos JEL orientativos:** D42, D43, D62, D82, H41, I18, K21, L13, L40,
+L51, O12, Q52 y Q58.
+
+## Bibliografía
+
+Akerlof, G. A. (1970). The market for "lemons": Quality uncertainty and the
+market mechanism. *Quarterly Journal of Economics, 84*(3), 488-500.
+https://doi.org/10.2307/1879431
+
+Coase, R. H. (1960). The problem of social cost. *Journal of Law and Economics,
+3*, 1-44. https://doi.org/10.1086/466560
+
+De Loecker, J., Eeckhout, J., & Unger, G. (2020). The rise of market power and
+the macroeconomic implications. *Quarterly Journal of Economics, 135*(2),
+561-644. https://doi.org/10.1093/qje/qjz041
+
+Greenstone, M., & Jack, B. K. (2015). Envirodevonomics: A research agenda for
+an emerging field. *Journal of Economic Literature, 53*(1), 5-42.
+https://doi.org/10.1257/jel.53.1.5
+
+Handel, B. R., & Schwartzstein, J. (2018). Frictions or mental gaps: What's
+behind the information we (don't) use and when do we care? *Journal of Economic
+Perspectives, 32*(1), 155-178. https://doi.org/10.1257/jep.32.1.155
+
+Samuelson, P. A. (1954). The pure theory of public expenditure. *Review of
+Economics and Statistics, 36*(4), 387-389. https://doi.org/10.2307/1925895
+
+Syverson, C. (2019). Macroeconomics and market power: Context, implications,
+and open questions. *Journal of Economic Perspectives, 33*(3), 23-43.
+https://doi.org/10.1257/jep.33.3.23
+
+Tirole, J. (2017). *Economics for the common good*. Princeton University Press.
+
+## Nota editorial
+
+Esta ronda usa los clásicos como referencias conceptuales rápidas y las
+lecturas recientes como base de discusión principal. Las inferencias para el
+Perú deben leerse como hipótesis de trabajo, no como resultados directamente
+probados por estudios realizados en otros contextos.
