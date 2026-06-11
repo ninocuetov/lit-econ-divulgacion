@@ -10,6 +10,8 @@ const VERSION_LABELS = {
   technical: "Nota técnica",
 };
 
+const CONTENT_VERSION = "20260610-17";
+
 const escapeHtml = (value) =>
   value
     .replaceAll("&", "&amp;")
@@ -321,7 +323,7 @@ async function renderRound() {
   document.querySelector("#short-tab").setAttribute("aria-selected", state.currentVersion === "short");
   document.querySelector("#long-tab").setAttribute("aria-selected", state.currentVersion === "long");
 
-  const response = await fetch(sourcePath);
+  const response = await fetch(`${sourcePath}?v=${CONTENT_VERSION}`);
   const text = await response.text();
   const articleMarkup = renderMarkdown(text, round.folder, {
     readings: state.currentVersion === "long" ? round.readings : [],
