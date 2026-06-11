@@ -1,247 +1,332 @@
 [
-  {
-    "id": "estado-mercado",
-    "published": true,
-    "number": "Ronda 1",
-    "title": "¿Puede haber buenos mercados sin un Estado capaz?",
-    "summary": "Estado, mercados e instituciones: complementariedad antes que polarización.",
-    "folder": "contenido/ronda_01_estado_mercado",
-    "short": "RONDA_01_WHATSAPP_UN_SOLO_MENSAJE.txt",
-    "long": "RONDA_01_LARGA.md",
-    "technical": "RONDA_01_NOTA_TECNICA.md",
-    "image": "contenido/ronda_01_estado_mercado/publicacion/Ronda_01_estado_mercado_portada_whatsapp.png",
-    "pdf": "contenido/ronda_01_estado_mercado/publicacion/Ronda_01_Estado_y_mercados.pdf",
-    "docx": "contenido/ronda_01_estado_mercado/publicacion/Ronda_01_Estado_y_mercados.docx",
-    "mechanisms": [
-      {
-        "icon": "search",
-        "label": "Diagnóstico",
-        "text": "Identificar la restricción principal antes de elegir una reforma."
-      },
-      {
-        "icon": "nodes",
-        "label": "Coordinación",
-        "text": "Usar capacidades públicas para resolver fallas que el mercado no corrige solo."
-      },
-      {
-        "icon": "balance",
-        "label": "Economía política",
-        "text": "Reconocer que las reformas cambian incentivos, ganadores y coaliciones."
-      },
-      {
-        "icon": "steps",
-        "label": "Aprendizaje productivo",
-        "text": "Apoyar sectores o capacidades con disciplina, evaluación y salida."
-      }
-    ],
-    "glossary": [
-      {
-        "term": "Restricción al crecimiento",
-        "definition": "Cuello de botella que limita inversión, productividad o empleo más que otros problemas."
-      },
-      {
-        "term": "Falla de coordinación",
-        "definition": "Situación en la que actores privados no invierten porque dependen de acciones complementarias de otros."
-      },
-      {
-        "term": "Política productiva",
-        "definition": "Intervenciones orientadas a desarrollar capacidades, sectores, innovación o encadenamientos."
-      }
-    ],
-    "readings": [
-      {
-        "section": "1",
-        "title": "Goodbye Washington Consensus, Hello Washington Confusion?",
-        "authors": "Rodrik",
-        "year": "2006",
-        "journal": "Journal of Economic Literature"
-      },
-      {
-        "section": "2",
-        "title": "State and Development: The Need for a Reappraisal of the Current Literature",
-        "authors": "Bardhan",
-        "year": "2016",
-        "journal": "Journal of Economic Literature"
-      },
-      {
-        "section": "3",
-        "title": "Economics versus Politics: Pitfalls of Policy Advice",
-        "authors": "Acemoglu y Robinson",
-        "year": "2013",
-        "journal": "Journal of Economic Perspectives"
-      },
-      {
-        "section": "4",
-        "title": "The New Economics of Industrial Policy",
-        "authors": "Juhász, Lane y Rodrik",
-        "year": "2024",
-        "journal": "Annual Review of Economics"
-      }
-    ]
-  },
-  {
-    "id": "capacidad-estatal",
-    "published": false,
-    "number": "Ronda 2",
-    "title": "¿Por qué el Estado llega tarde, mal o no llega?",
-    "summary": "Capacidad estatal, burocracia, corrupción, servicios y captura regulatoria.",
-    "folder": "contenido/ronda_01",
-    "short": "RONDA_01_WHATSAPP_UN_SOLO_MENSAJE.txt",
-    "long": "RONDA_01_LARGA.md",
-    "technical": "RONDA_01_NOTA_TECNICA.md",
-    "image": "contenido/ronda_01/publicacion/Ronda_01_portada_whatsapp.png",
-    "pdf": "contenido/ronda_01/publicacion/Ronda_01_Estado_burocracia_y_captura.pdf",
-    "docx": "contenido/ronda_01/publicacion/Ronda_01_Estado_burocracia_y_captura.docx",
-    "mechanisms": [
-      {
-        "icon": "office",
-        "label": "Burocracia",
-        "text": "Selección, incentivos, autonomía y organización afectan la capacidad de ejecutar."
-      },
-      {
-        "icon": "shield",
-        "label": "Corrupción",
-        "text": "Las reglas y controles modifican costos, oportunidades y formas de ocultamiento."
-      },
-      {
-        "icon": "route",
-        "label": "Servicio efectivo",
-        "text": "Que un servicio exista en presupuesto o norma no garantiza que llegue al ciudadano."
-      },
-      {
-        "icon": "capture",
-        "label": "Captura",
-        "text": "Intereses organizados pueden influir reglas, supervisión o decisiones públicas."
-      }
-    ],
-    "glossary": [
-      {
-        "term": "Capacidad estatal",
-        "definition": "Aptitud del Estado para convertir recursos, autoridad e información en resultados."
-      },
-      {
-        "term": "Captura regulatoria",
-        "definition": "Influencia indebida sobre reguladores o reglas en favor de intereses particulares."
-      },
-      {
-        "term": "Ausentismo",
-        "definition": "Brecha entre personal financiado formalmente y personal efectivamente disponible."
-      }
-    ],
-    "readings": [
-      {
-        "section": "1",
-        "title": "Bureaucracy and Development",
-        "authors": "Besley, Burgess, Khan y Xu",
-        "year": "2022",
-        "journal": "Annual Review of Economics"
-      },
-      {
-        "section": "2",
-        "title": "Corruption in Developing Countries",
-        "authors": "Olken y Pande",
-        "year": "2012",
-        "journal": "Annual Review of Economics"
-      },
-      {
-        "section": "3",
-        "title": "Missing in Action: Teacher and Health Worker Absence in Developing Countries",
-        "authors": "Chaudhury, Hammer, Kremer, Muralidharan y Rogers",
-        "year": "2006",
-        "journal": "Journal of Economic Perspectives"
-      },
-      {
-        "section": "4",
-        "title": "Regulatory Capture: A Review",
-        "authors": "Dal Bó",
-        "year": "2006",
-        "journal": "Oxford Review of Economic Policy"
-      }
-    ]
-  },
-  {
-    "id": "fallas-mercado",
-    "published": true,
-    "number": "Ronda 3",
-    "title": "¿Cuándo los mercados no bastan?",
-    "summary": "Fallas de mercado, poder económico y reglas para el bien común.",
-    "folder": "contenido/ronda_03_fallas_mercado",
-    "short": "RONDA_03_WHATSAPP_UN_SOLO_MENSAJE.txt",
-    "long": "RONDA_03_LARGA.md",
-    "technical": "RONDA_03_NOTA_TECNICA.md",
-    "pdf": "contenido/ronda_03_fallas_mercado/publicacion/Ronda_03_Fallas_de_mercado.pdf",
-    "mechanisms": [
-      {
-        "icon": "search",
-        "label": "Información",
-        "text": "Cuando la calidad o los riesgos no se observan bien, elegir no basta para disciplinar el mercado."
-      },
-      {
-        "icon": "route",
-        "label": "Externalidades",
-        "text": "Costos ambientales, territoriales o sanitarios pueden quedar fuera del precio privado."
-      },
-      {
-        "icon": "capture",
-        "label": "Poder de mercado",
-        "text": "Barreras de entrada, concentración o plataformas pueden debilitar la competencia efectiva."
-      },
-      {
-        "icon": "balance",
-        "label": "Bien común",
-        "text": "Regular exige alinear incentivos privados con fines sociales sin crear captura o distorsiones mayores."
-      }
-    ],
-    "glossary": [
-      {
-        "term": "Falla de mercado",
-        "definition": "Situación en la que el mercado no asigna recursos de forma socialmente eficiente bajo ciertas condiciones."
-      },
-      {
-        "term": "Externalidad",
-        "definition": "Costo o beneficio de una decisión que recae sobre terceros y no se refleja plenamente en el precio."
-      },
-      {
-        "term": "Poder de mercado",
-        "definition": "Capacidad de una firma o grupo de firmas para influir precios, calidad o condiciones por falta de competencia efectiva."
-      }
-    ],
-    "readings": [
-      {
-        "section": "1",
-        "title": "Frictions or Mental Gaps: What's Behind the Information We (Don't) Use and When Do We Care?",
-        "authors": "Handel y Schwartzstein",
-        "year": "2018",
-        "journal": "Journal of Economic Perspectives"
-      },
-      {
-        "section": "2",
-        "title": "Macroeconomics and Market Power: Context, Implications, and Open Questions",
-        "authors": "Syverson",
-        "year": "2019",
-        "journal": "Journal of Economic Perspectives"
-      },
-      {
-        "section": "3",
-        "title": "Envirodevonomics: A Research Agenda for an Emerging Field",
-        "authors": "Greenstone y Jack",
-        "year": "2015",
-        "journal": "Journal of Economic Literature"
-      },
-      {
-        "section": "4",
-        "title": "Global Public Goods: A Survey",
-        "authors": "Buchholz y Sandler",
-        "year": "2021",
-        "journal": "Journal of Economic Literature"
-      },
-      {
-        "section": "5",
-        "title": "Economics for the Common Good",
-        "authors": "Tirole",
-        "year": "2017",
-        "journal": "Princeton University Press"
-      }
-    ]
-  }
+    {
+        "id":  "estado-mercado",
+        "published":  true,
+        "number":  "Ronda 1",
+        "title":  "Â¿Puede haber buenos mercados sin un Estado capaz?",
+        "summary":  "Estado, mercados e instituciones: complementariedad antes que polarizaciÃ³n.",
+        "folder":  "contenido/ronda_01_estado_mercado",
+        "short":  "RONDA_01_WHATSAPP_UN_SOLO_MENSAJE.txt",
+        "long":  "RONDA_01_LARGA.md",
+        "technical":  "RONDA_01_NOTA_TECNICA.md",
+        "image":  "contenido/ronda_01_estado_mercado/publicacion/Ronda_01_estado_mercado_portada_whatsapp.png",
+        "pdf":  "contenido/ronda_01_estado_mercado/publicacion/Ronda_01_Estado_y_mercados.pdf",
+        "docx":  "contenido/ronda_01_estado_mercado/publicacion/Ronda_01_Estado_y_mercados.docx",
+        "mechanisms":  [
+                           {
+                               "icon":  "search",
+                               "label":  "DiagnÃ³stico",
+                               "text":  "Identificar la restricciÃ³n principal antes de elegir una reforma."
+                           },
+                           {
+                               "icon":  "nodes",
+                               "label":  "CoordinaciÃ³n",
+                               "text":  "Usar capacidades pÃºblicas para resolver fallas que el mercado no corrige solo."
+                           },
+                           {
+                               "icon":  "balance",
+                               "label":  "EconomÃ­a polÃ­tica",
+                               "text":  "Reconocer que las reformas cambian incentivos, ganadores y coaliciones."
+                           },
+                           {
+                               "icon":  "steps",
+                               "label":  "Aprendizaje productivo",
+                               "text":  "Apoyar sectores o capacidades con disciplina, evaluaciÃ³n y salida."
+                           }
+                       ],
+        "glossary":  [
+                         {
+                             "term":  "RestricciÃ³n al crecimiento",
+                             "definition":  "Cuello de botella que limita inversiÃ³n, productividad o empleo mÃ¡s que otros problemas."
+                         },
+                         {
+                             "term":  "Falla de coordinaciÃ³n",
+                             "definition":  "SituaciÃ³n en la que actores privados no invierten porque dependen de acciones complementarias de otros."
+                         },
+                         {
+                             "term":  "PolÃ­tica productiva",
+                             "definition":  "Intervenciones orientadas a desarrollar capacidades, sectores, innovaciÃ³n o encadenamientos."
+                         }
+                     ],
+        "readings":  [
+                         {
+                             "section":  "1",
+                             "title":  "Goodbye Washington Consensus, Hello Washington Confusion?",
+                             "authors":  "Rodrik",
+                             "year":  "2006",
+                             "journal":  "Journal of Economic Literature"
+                         },
+                         {
+                             "section":  "2",
+                             "title":  "State and Development: The Need for a Reappraisal of the Current Literature",
+                             "authors":  "Bardhan",
+                             "year":  "2016",
+                             "journal":  "Journal of Economic Literature"
+                         },
+                         {
+                             "section":  "3",
+                             "title":  "Economics versus Politics: Pitfalls of Policy Advice",
+                             "authors":  "Acemoglu y Robinson",
+                             "year":  "2013",
+                             "journal":  "Journal of Economic Perspectives"
+                         },
+                         {
+                             "section":  "4",
+                             "title":  "The New Economics of Industrial Policy",
+                             "authors":  "JuhÃ¡sz, Lane y Rodrik",
+                             "year":  "2024",
+                             "journal":  "Annual Review of Economics"
+                         }
+                     ]
+    },
+    {
+        "id":  "capacidad-estatal",
+        "published":  false,
+        "number":  "Ronda 2",
+        "title":  "Â¿Por quÃ© el Estado llega tarde, mal o no llega?",
+        "summary":  "Capacidad estatal, burocracia, corrupciÃ³n, servicios y captura regulatoria.",
+        "folder":  "contenido/ronda_01",
+        "short":  "RONDA_01_WHATSAPP_UN_SOLO_MENSAJE.txt",
+        "long":  "RONDA_01_LARGA.md",
+        "technical":  "RONDA_01_NOTA_TECNICA.md",
+        "image":  "contenido/ronda_01/publicacion/Ronda_01_portada_whatsapp.png",
+        "pdf":  "contenido/ronda_01/publicacion/Ronda_01_Estado_burocracia_y_captura.pdf",
+        "docx":  "contenido/ronda_01/publicacion/Ronda_01_Estado_burocracia_y_captura.docx",
+        "mechanisms":  [
+                           {
+                               "icon":  "office",
+                               "label":  "Burocracia",
+                               "text":  "SelecciÃ³n, incentivos, autonomÃ­a y organizaciÃ³n afectan la capacidad de ejecutar."
+                           },
+                           {
+                               "icon":  "shield",
+                               "label":  "CorrupciÃ³n",
+                               "text":  "Las reglas y controles modifican costos, oportunidades y formas de ocultamiento."
+                           },
+                           {
+                               "icon":  "route",
+                               "label":  "Servicio efectivo",
+                               "text":  "Que un servicio exista en presupuesto o norma no garantiza que llegue al ciudadano."
+                           },
+                           {
+                               "icon":  "capture",
+                               "label":  "Captura",
+                               "text":  "Intereses organizados pueden influir reglas, supervisiÃ³n o decisiones pÃºblicas."
+                           }
+                       ],
+        "glossary":  [
+                         {
+                             "term":  "Capacidad estatal",
+                             "definition":  "Aptitud del Estado para convertir recursos, autoridad e informaciÃ³n en resultados."
+                         },
+                         {
+                             "term":  "Captura regulatoria",
+                             "definition":  "Influencia indebida sobre reguladores o reglas en favor de intereses particulares."
+                         },
+                         {
+                             "term":  "Ausentismo",
+                             "definition":  "Brecha entre personal financiado formalmente y personal efectivamente disponible."
+                         }
+                     ],
+        "readings":  [
+                         {
+                             "section":  "1",
+                             "title":  "Bureaucracy and Development",
+                             "authors":  "Besley, Burgess, Khan y Xu",
+                             "year":  "2022",
+                             "journal":  "Annual Review of Economics"
+                         },
+                         {
+                             "section":  "2",
+                             "title":  "Corruption in Developing Countries",
+                             "authors":  "Olken y Pande",
+                             "year":  "2012",
+                             "journal":  "Annual Review of Economics"
+                         },
+                         {
+                             "section":  "3",
+                             "title":  "Missing in Action: Teacher and Health Worker Absence in Developing Countries",
+                             "authors":  "Chaudhury, Hammer, Kremer, Muralidharan y Rogers",
+                             "year":  "2006",
+                             "journal":  "Journal of Economic Perspectives"
+                         },
+                         {
+                             "section":  "4",
+                             "title":  "Regulatory Capture: A Review",
+                             "authors":  "Dal BÃ³",
+                             "year":  "2006",
+                             "journal":  "Oxford Review of Economic Policy"
+                         }
+                     ]
+    },
+    {
+        "id":  "fallas-mercado",
+        "published":  true,
+        "number":  "Ronda 3",
+        "title":  "Â¿CuÃ¡ndo los mercados no bastan?",
+        "summary":  "Fallas de mercado, poder econÃ³mico y reglas para el bien comÃºn.",
+        "folder":  "contenido/ronda_03_fallas_mercado",
+        "short":  "RONDA_03_WHATSAPP_UN_SOLO_MENSAJE.txt",
+        "long":  "RONDA_03_LARGA.md",
+        "technical":  "RONDA_03_NOTA_TECNICA.md",
+        "pdf":  "contenido/ronda_03_fallas_mercado/publicacion/Ronda_03_Fallas_de_mercado.pdf",
+        "mechanisms":  [
+                           {
+                               "icon":  "search",
+                               "label":  "InformaciÃ³n",
+                               "text":  "Cuando la calidad o los riesgos no se observan bien, elegir no basta para disciplinar el mercado."
+                           },
+                           {
+                               "icon":  "route",
+                               "label":  "Externalidades",
+                               "text":  "Costos ambientales, territoriales o sanitarios pueden quedar fuera del precio privado."
+                           },
+                           {
+                               "icon":  "capture",
+                               "label":  "Poder de mercado",
+                               "text":  "Barreras de entrada, concentraciÃ³n o plataformas pueden debilitar la competencia efectiva."
+                           },
+                           {
+                               "icon":  "balance",
+                               "label":  "Bien comÃºn",
+                               "text":  "Regular exige alinear incentivos privados con fines sociales sin crear captura o distorsiones mayores."
+                           }
+                       ],
+        "glossary":  [
+                         {
+                             "term":  "Falla de mercado",
+                             "definition":  "SituaciÃ³n en la que el mercado no asigna recursos de forma socialmente eficiente bajo ciertas condiciones."
+                         },
+                         {
+                             "term":  "Externalidad",
+                             "definition":  "Costo o beneficio de una decisiÃ³n que recae sobre terceros y no se refleja plenamente en el precio."
+                         },
+                         {
+                             "term":  "Poder de mercado",
+                             "definition":  "Capacidad de una firma o grupo de firmas para influir precios, calidad o condiciones por falta de competencia efectiva."
+                         }
+                     ],
+        "readings":  [
+                         {
+                             "section":  "1",
+                             "title":  "Frictions or Mental Gaps: What\u0027s Behind the Information We (Don\u0027t) Use and When Do We Care?",
+                             "authors":  "Handel y Schwartzstein",
+                             "year":  "2018",
+                             "journal":  "Journal of Economic Perspectives"
+                         },
+                         {
+                             "section":  "2",
+                             "title":  "Macroeconomics and Market Power: Context, Implications, and Open Questions",
+                             "authors":  "Syverson",
+                             "year":  "2019",
+                             "journal":  "Journal of Economic Perspectives"
+                         },
+                         {
+                             "section":  "3",
+                             "title":  "Envirodevonomics: A Research Agenda for an Emerging Field",
+                             "authors":  "Greenstone y Jack",
+                             "year":  "2015",
+                             "journal":  "Journal of Economic Literature"
+                         },
+                         {
+                             "section":  "4",
+                             "title":  "Global Public Goods: A Survey",
+                             "authors":  "Buchholz y Sandler",
+                             "year":  "2021",
+                             "journal":  "Journal of Economic Literature"
+                         },
+                         {
+                             "section":  "5",
+                             "title":  "Economics for the Common Good",
+                             "authors":  "Tirole",
+                             "year":  "2017",
+                             "journal":  "Princeton University Press"
+                         }
+                     ]
+    },
+    {
+        "id":  "crecimiento-desarrollo",
+        "published":  true,
+        "number":  "Ronda 4",
+        "title":  "Â¿Por quÃ© crecer no siempre equivale a desarrollarse?",
+        "summary":  "Crecimiento, bienestar, capacidades e instituciones para pensar el desarrollo.",
+        "folder":  "contenido/ronda_04_crecimiento_desarrollo",
+        "short":  "RONDA_04_WHATSAPP_UN_SOLO_MENSAJE.txt",
+        "long":  "RONDA_04_LARGA.md",
+        "technical":  "RONDA_04_NOTA_TECNICA.md",
+        "pdf":  "contenido/ronda_04_crecimiento_desarrollo/publicacion/Ronda_04_Crecimiento_y_desarrollo.pdf",
+        "mechanisms":  [
+                           {
+                               "icon":  "steps",
+                               "label":  "Crecimiento",
+                               "text":  "Aumentar ingreso e inversiÃ³n importa, pero no define por sÃ­ solo el desarrollo."
+                           },
+                           {
+                               "icon":  "nodes",
+                               "label":  "Capacidades",
+                               "text":  "Salud, educaciÃ³n, seguridad y agencia convierten recursos en vidas mÃ¡s amplias."
+                           },
+                           {
+                               "icon":  "office",
+                               "label":  "Instituciones",
+                               "text":  "Las reglas moldean incentivos para invertir, innovar, competir y cooperar."
+                           },
+                           {
+                               "icon":  "search",
+                               "label":  "DiagnÃ³stico",
+                               "text":  "Antes de recetar reformas, identificar la restricciÃ³n que limita el crecimiento."
+                           }
+                       ],
+        "glossary":  [
+                         {
+                             "term":  "Desarrollo",
+                             "definition":  "ExpansiÃ³n de capacidades, bienestar y oportunidades sostenibles, no solo aumento del ingreso."
+                         },
+                         {
+                             "term":  "Productividad",
+                             "definition":  "Capacidad de producir mÃ¡s valor con los recursos disponibles, asociada a ideas, organizaciÃ³n y aprendizaje."
+                         },
+                         {
+                             "term":  "RestricciÃ³n vinculante",
+                             "definition":  "Cuello de botella que limita mÃ¡s fuertemente inversiÃ³n, productividad o crecimiento en un contexto dado."
+                         }
+                     ],
+        "readings":  [
+                         {
+                             "section":  "1",
+                             "title":  "The Facts of Economic Growth",
+                             "authors":  "Jones",
+                             "year":  "2016",
+                             "journal":  "Handbook of Macroeconomics"
+                         },
+                         {
+                             "section":  "2",
+                             "title":  "Development as Freedom",
+                             "authors":  "Sen",
+                             "year":  "1999",
+                             "journal":  "Oxford University Press"
+                         },
+                         {
+                             "section":  "3",
+                             "title":  "Institutions as a Fundamental Cause of Long-Run Growth",
+                             "authors":  "Acemoglu, Johnson y Robinson",
+                             "year":  "2005",
+                             "journal":  "Handbook of Economic Growth"
+                         },
+                         {
+                             "section":  "4",
+                             "title":  "Report by the Commission on the Measurement of Economic Performance and Social Progress",
+                             "authors":  "Stiglitz, Sen y Fitoussi",
+                             "year":  "2009",
+                             "journal":  "Commission on the Measurement of Economic Performance and Social Progress"
+                         },
+                         {
+                             "section":  "5",
+                             "title":  "Growth Diagnostics",
+                             "authors":  "Hausmann, Rodrik y Velasco",
+                             "year":  "2005",
+                             "journal":  "Harvard University"
+                         }
+                     ]
+    }
 ]
