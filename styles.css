@@ -558,6 +558,21 @@ a {
   background: var(--soft);
 }
 
+.civic-nav a.current {
+  border-left-color: var(--accent);
+  background: var(--soft);
+  color: #020b4d;
+  font-weight: 850;
+}
+
+.civic-nav a.current::after {
+  content: "";
+  display: block;
+  width: 2.2rem;
+  margin-top: 0.35rem;
+  border-top: 2px solid var(--accent);
+}
+
 .civic-nav .back-link {
   border-left-color: var(--accent-2);
   background: #f6f1ec;
