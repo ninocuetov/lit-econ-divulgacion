@@ -332,8 +332,8 @@ a {
   grid-column: 1 / -1;
   display: flex;
   flex-wrap: nowrap;
-  gap: 0.45rem;
-  margin-top: -1.25rem;
+  gap: 0.35rem;
+  margin-top: -1.4rem;
   overflow-x: auto;
   padding-bottom: 0.15rem;
 }
@@ -341,26 +341,26 @@ a {
 .mechanism-preview span {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
-  min-height: 2.9rem;
-  padding: 0.35rem 0.8rem 0.35rem 0.45rem;
+  gap: 0.45rem;
+  min-height: 2.35rem;
+  padding: 0.22rem 0.62rem 0.22rem 0.32rem;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: #f8fbf8;
   color: var(--accent);
-  font-size: 0.98rem;
+  font-size: 0.9rem;
   font-weight: 750;
   white-space: nowrap;
 }
 
 .mechanism-preview .mechanism-icon {
-  width: 2.55rem;
-  height: 2.55rem;
+  width: 2rem;
+  height: 2rem;
   color: #0f6b5f;
 }
 
 .mechanism-preview .mechanism-icon svg {
-  transform: scale(1.34);
+  transform: scale(1.18);
   transform-origin: center;
 }
 
