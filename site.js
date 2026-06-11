@@ -10,7 +10,7 @@ const VERSION_LABELS = {
   technical: "Nota técnica",
 };
 
-const CONTENT_VERSION = "20260611-04";
+const CONTENT_VERSION = "20260611-06";
 
 const escapeHtml = (value) =>
   value
@@ -153,7 +153,7 @@ function renderMarkdown(source, basePath = "", options = {}) {
 }
 
 async function loadRounds() {
-  const response = await fetch("rondas.json");
+  const response = await fetch(`rondas.json?v=${CONTENT_VERSION}`);
   state.rounds = await response.json();
 }
 
@@ -161,7 +161,9 @@ function renderIndex() {
   const list = document.querySelector("#round-list");
   if (!list) return;
 
-  list.innerHTML = state.rounds
+  const publishedRounds = state.rounds.filter((round) => round.published !== false);
+
+  list.innerHTML = publishedRounds
     .map(
       (round) => {
         const mechanismPreview = (round.mechanisms || [])
