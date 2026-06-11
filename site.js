@@ -10,7 +10,7 @@ const VERSION_LABELS = {
   technical: "Nota técnica",
 };
 
-const CONTENT_VERSION = "20260611-10";
+const CONTENT_VERSION = "20260611-11";
 
 const escapeHtml = (value) =>
   value
@@ -149,6 +149,126 @@ function renderMarkdown(source, basePath = "", options = {}) {
   flushParagraph();
   flushList();
   flushQuote();
+  return html.join("\n");
+}
+
+function renderShortMessage(source, basePath = "") {
+  const lines = source.replace(/\r\n/g, "\n").split("\n");
+  const html = [];
+  let paragraph = [];
+  let list = [];
+  let quote = [];
+  let firstTextBlock = true;
+  let pendingTitleAfterKicker = false;
+
+  const flushParagraph = () => {
+    if (paragraph.length) {
+      html.push(`<p>${inlineMarkdown(paragraph.join(" "))}</p>`);
+      paragraph = [];
+    }
+  };
+
+  const flushList = () => {
+    if (list.length) {
+      html.push(`<ul>${list.map((item) => `<li>${inlineMarkdown(item)}</li>`).join("")}</ul>`);
+      list = [];
+    }
+  };
+
+  const flushQuote = () => {
+    if (quote.length) {
+      html.push(`<blockquote>${quote.map((item) => `<p>${inlineMarkdown(item)}</p>`).join("")}</blockquote>`);
+      quote = [];
+    }
+  };
+
+  const flushAll = () => {
+    flushParagraph();
+    flushList();
+    flushQuote();
+  };
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+
+    if (!trimmed) {
+      flushAll();
+      continue;
+    }
+
+    const image = trimmed.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+    if (image) {
+      flushAll();
+      const src = image[2].startsWith("http") ? image[2] : `${basePath}/${image[2]}`;
+      html.push(`<img src="${escapeHtml(src)}" alt="${escapeHtml(image[1])}">`);
+      firstTextBlock = false;
+      continue;
+    }
+
+    const heading = trimmed.match(/^(#{1,3})\s+(.+)$/);
+    if (heading) {
+      flushAll();
+      const level = heading[1].length;
+      html.push(`<h${level}>${inlineMarkdown(heading[2])}</h${level}>`);
+      firstTextBlock = false;
+      continue;
+    }
+
+    const numberedHeading = trimmed.match(/^(\d+)\.\s+(.+)$/);
+    if (numberedHeading) {
+      flushAll();
+      html.push(`<h2><span>${escapeHtml(numberedHeading[1])}</span>${inlineMarkdown(numberedHeading[2])}</h2>`);
+      firstTextBlock = false;
+      continue;
+    }
+
+    const bullet = trimmed.match(/^[-*]\s+(.+)$/);
+    if (bullet) {
+      flushParagraph();
+      flushQuote();
+      list.push(bullet[1]);
+      firstTextBlock = false;
+      continue;
+    }
+
+    const blockquote = trimmed.match(/^>\s+(.+)$/);
+    if (blockquote) {
+      flushParagraph();
+      flushList();
+      quote.push(blockquote[1]);
+      firstTextBlock = false;
+      continue;
+    }
+
+    const firstLineWithTitle = trimmed.match(/^(Ronda\s+\d+)[:.]\s+(.+)$/i);
+    if (firstTextBlock && firstLineWithTitle) {
+      flushAll();
+      html.push(`<p class="short-kicker-line">${inlineMarkdown(firstLineWithTitle[1])}</p>`);
+      html.push(`<h1>${inlineMarkdown(firstLineWithTitle[2])}</h1>`);
+      firstTextBlock = false;
+      continue;
+    }
+
+    if (firstTextBlock && /^Ronda\s+\d+$/i.test(trimmed)) {
+      flushAll();
+      html.push(`<p class="short-kicker-line">${inlineMarkdown(trimmed)}</p>`);
+      pendingTitleAfterKicker = true;
+      firstTextBlock = false;
+      continue;
+    }
+
+    if (pendingTitleAfterKicker) {
+      flushAll();
+      html.push(`<h1>${inlineMarkdown(trimmed)}</h1>`);
+      pendingTitleAfterKicker = false;
+      continue;
+    }
+
+    paragraph.push(trimmed);
+    firstTextBlock = false;
+  }
+
+  flushAll();
   return html.join("\n");
 }
 
@@ -328,11 +448,15 @@ async function renderRound() {
 
   const response = await fetch(`${sourcePath}?v=${CONTENT_VERSION}`);
   const text = await response.text();
-  const articleMarkup = renderMarkdown(text, round.folder, {
-    readings: state.currentVersion === "long" ? round.readings : [],
-    suppressReadingLines: state.currentVersion === "long",
-  });
+  const articleMarkup =
+    state.currentVersion === "short"
+      ? renderShortMessage(text, round.folder)
+      : renderMarkdown(text, round.folder, {
+          readings: state.currentVersion === "long" ? round.readings : [],
+          suppressReadingLines: state.currentVersion === "long",
+        });
   const mechanismMap = state.currentVersion === "long" ? renderMechanismMap(round) : "";
+  content.classList.toggle("short-article", state.currentVersion === "short");
   content.innerHTML = injectMechanismMap(articleMarkup, mechanismMap);
   const sideGlossary = document.querySelector("#side-glossary");
   if (sideGlossary) {
