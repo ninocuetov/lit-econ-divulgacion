@@ -4,6 +4,12 @@ const state = {
   currentVersion: "short",
 };
 
+const VERSION_LABELS = {
+  short: "Versión breve",
+  long: "Versión extendida",
+  technical: "Nota técnica",
+};
+
 const escapeHtml = (value) =>
   value
     .replaceAll("&", "&amp;")
@@ -191,6 +197,7 @@ function setDownloads(round, sourcePath) {
   const pdf = document.querySelector("#pdf-link");
   const docx = document.querySelector("#docx-link");
   const source = document.querySelector("#source-link");
+  const technical = document.querySelector("#technical-link");
 
   if (pdf && round.pdf) {
     pdf.hidden = false;
@@ -205,6 +212,14 @@ function setDownloads(round, sourcePath) {
   if (source) {
     source.hidden = false;
     source.href = sourcePath;
+  }
+
+  if (technical) {
+    technical.hidden = !round.technical;
+    if (round.technical) {
+      technical.href = `ronda.html?id=${round.id}&version=technical`;
+      technical.classList.toggle("active", state.currentVersion === "technical");
+    }
   }
 }
 
@@ -278,14 +293,25 @@ async function renderRound() {
 
   const params = new URLSearchParams(location.search);
   const id = params.get("id") || state.rounds[0]?.id;
-  state.currentVersion = params.get("version") === "long" ? "long" : "short";
   state.currentRound = state.rounds.find((round) => round.id === id) || state.rounds[0];
+  const requestedVersion = params.get("version");
+  state.currentVersion =
+    requestedVersion === "technical" && state.currentRound.technical
+      ? "technical"
+      : requestedVersion === "long"
+        ? "long"
+        : "short";
 
   const round = state.currentRound;
-  const filename = state.currentVersion === "long" ? round.long : round.short;
+  const filename =
+    state.currentVersion === "technical"
+      ? round.technical
+      : state.currentVersion === "long"
+        ? round.long
+        : round.short;
   const sourcePath = `${round.folder}/${filename}`;
 
-  document.title = `${round.number}: ${round.title}`;
+  document.title = `${round.number}: ${round.title} | ${VERSION_LABELS[state.currentVersion]}`;
   document.querySelector("#round-kicker").textContent = round.number;
   title.textContent = round.title;
   document.querySelector("#round-summary").textContent = round.summary;

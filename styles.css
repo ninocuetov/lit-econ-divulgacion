@@ -657,6 +657,15 @@ a {
   gap: 0.5rem;
 }
 
+.downloads a {
+  padding: 0.45rem 0;
+}
+
+.downloads a.active {
+  color: var(--accent-2);
+  font-weight: 800;
+}
+
 .article {
   padding: 2rem;
   border: 1px solid var(--line);
