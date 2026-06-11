@@ -45,6 +45,36 @@
         "term": "Política productiva",
         "definition": "Intervenciones orientadas a desarrollar capacidades, sectores, innovación o encadenamientos."
       }
+    ],
+    "readings": [
+      {
+        "section": "1",
+        "title": "Goodbye Washington Consensus, Hello Washington Confusion?",
+        "authors": "Rodrik",
+        "year": "2006",
+        "journal": "Journal of Economic Literature"
+      },
+      {
+        "section": "2",
+        "title": "State and Development: The Need for a Reappraisal of the Current Literature",
+        "authors": "Bardhan",
+        "year": "2016",
+        "journal": "Journal of Economic Literature"
+      },
+      {
+        "section": "3",
+        "title": "Economics versus Politics: Pitfalls of Policy Advice",
+        "authors": "Acemoglu y Robinson",
+        "year": "2013",
+        "journal": "Journal of Economic Perspectives"
+      },
+      {
+        "section": "4",
+        "title": "The New Economics of Industrial Policy",
+        "authors": "Juhász, Lane y Rodrik",
+        "year": "2024",
+        "journal": "Annual Review of Economics"
+      }
     ]
   },
   {
@@ -92,6 +122,36 @@
       {
         "term": "Ausentismo",
         "definition": "Brecha entre personal financiado formalmente y personal efectivamente disponible."
+      }
+    ],
+    "readings": [
+      {
+        "section": "1",
+        "title": "Bureaucracy and Development",
+        "authors": "Besley, Burgess, Khan y Xu",
+        "year": "2022",
+        "journal": "Annual Review of Economics"
+      },
+      {
+        "section": "2",
+        "title": "Corruption in Developing Countries",
+        "authors": "Olken y Pande",
+        "year": "2012",
+        "journal": "Annual Review of Economics"
+      },
+      {
+        "section": "3",
+        "title": "Missing in Action: Teacher and Health Worker Absence in Developing Countries",
+        "authors": "Chaudhury, Hammer, Kremer, Muralidharan y Rogers",
+        "year": "2006",
+        "journal": "Journal of Economic Perspectives"
+      },
+      {
+        "section": "4",
+        "title": "Regulatory Capture: A Review",
+        "authors": "Dal Bó",
+        "year": "2006",
+        "journal": "Oxford Review of Economic Policy"
       }
     ]
   }

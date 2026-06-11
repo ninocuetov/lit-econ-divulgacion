@@ -33,11 +33,28 @@ function renderMechanismIcon(type = "nodes") {
   return `<span class="mechanism-icon">${icons[type] || icons.nodes}</span>`;
 }
 
-function renderMarkdown(source, basePath = "") {
+function renderReadingMeta(reading) {
+  return `
+    <p class="reading-meta">
+      <span>${escapeHtml(reading.title)}</span>
+      <span>${escapeHtml(reading.authors)} (${escapeHtml(reading.year)}) · ${escapeHtml(reading.journal)}</span>
+    </p>
+  `;
+}
+
+function buildReadingsBySection(readings = []) {
+  return readings.reduce((accumulator, reading) => {
+    accumulator[String(reading.section)] = reading;
+    return accumulator;
+  }, {});
+}
+
+function renderMarkdown(source, basePath = "", options = {}) {
   const lines = source.replace(/\r\n/g, "\n").split("\n");
   const html = [];
   let paragraph = [];
   let list = [];
+  const readingsBySection = buildReadingsBySection(options.readings);
 
   const flushParagraph = () => {
     if (paragraph.length) {
@@ -62,6 +79,12 @@ function renderMarkdown(source, basePath = "") {
       continue;
     }
 
+    if (options.suppressReadingLines && /^\*.+\*\s+[—-]\s+.+\(\d{4}\)$/.test(trimmed)) {
+      flushParagraph();
+      flushList();
+      continue;
+    }
+
     const image = trimmed.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
     if (image) {
       flushParagraph();
@@ -77,6 +100,10 @@ function renderMarkdown(source, basePath = "") {
       flushList();
       const level = heading[1].length;
       html.push(`<h${level}>${inlineMarkdown(heading[2])}</h${level}>`);
+      const section = heading[2].match(/^(\d+)\./);
+      if (level === 2 && section && readingsBySection[section[1]]) {
+        html.push(renderReadingMeta(readingsBySection[section[1]]));
+      }
       continue;
     }
 
@@ -248,7 +275,10 @@ async function renderRound() {
 
   const response = await fetch(sourcePath);
   const text = await response.text();
-  const articleMarkup = renderMarkdown(text, round.folder);
+  const articleMarkup = renderMarkdown(text, round.folder, {
+    readings: state.currentVersion === "long" ? round.readings : [],
+    suppressReadingLines: state.currentVersion === "long",
+  });
   const mechanismMap = state.currentVersion === "long" ? renderMechanismMap(round) : "";
   content.innerHTML = injectMechanismMap(articleMarkup, mechanismMap);
   const sideGlossary = document.querySelector("#side-glossary");

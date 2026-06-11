@@ -624,6 +624,10 @@ a {
   top: 1rem;
   display: grid;
   gap: 1rem;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+  padding-right: 0.25rem;
+  scrollbar-gutter: stable;
 }
 
 .segmented {
@@ -679,6 +683,24 @@ a {
 .article h3 {
   margin-top: 1.6rem;
   font-size: 1.15rem;
+}
+
+.reading-meta {
+  display: grid;
+  gap: 0.15rem;
+  margin: -0.75rem 0 1.35rem;
+  padding: 0.8rem 0 0;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.reading-meta span:first-child {
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.reading-meta span:last-child {
+  font-size: 0.98rem;
 }
 
 .article img {
@@ -821,6 +843,9 @@ a {
   .reader-panel {
     position: static;
     margin-bottom: 1rem;
+    max-height: none;
+    overflow-y: visible;
+    padding-right: 0;
   }
 
   .article {
