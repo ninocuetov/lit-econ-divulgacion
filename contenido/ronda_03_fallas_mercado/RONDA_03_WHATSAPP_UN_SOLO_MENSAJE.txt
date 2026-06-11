@@ -1,0 +1,29 @@
+Ronda 3
+
+¿Cuándo los mercados no bastan?
+
+Fallas de mercado, poder económico y reglas para el bien común.
+
+La discusión pública suele oscilar entre dos reflejos: confiar en que el mercado resolverá mejor los problemas o pedir que el Estado intervenga cada vez que algo sale mal. Esta ronda propone una pregunta menos ideológica y más útil: ¿qué tipo de falla estamos mirando?
+
+Los mercados hacen muchas cosas bien. Coordinan información dispersa, permiten especialización, premian innovación y reducen la necesidad de que una autoridad decida cada intercambio. Pero no siempre producen buenos resultados por sí solos.
+
+Hay al menos cuatro problemas centrales.
+
+Primero, información imperfecta. En educación, salud, crédito o servicios profesionales, muchas veces quien compra no sabe bien qué calidad recibe. Akerlof mostró el caso clásico de los “limones”: cuando la calidad no se observa, los malos productos pueden desplazar a los buenos. Handel y Schwartzstein actualizan esa intuición: incluso cuando hay información disponible, las personas pueden no usarla por costos de búsqueda, atención limitada o sesgos.
+
+Segundo, externalidades. Una empresa o persona puede tomar decisiones cuyos costos recaen sobre otros: contaminación, congestión, ruido, deforestación, riesgos sanitarios. Coase enseñó que no basta decir “hay externalidad”: importan los derechos, los costos de negociación y la institución que permite resolver el conflicto.
+
+Tercero, bienes públicos y coordinación. Seguridad, información pública, ciencia, infraestructura, prevención de desastres o confianza institucional pueden subproducirse si nadie captura todo el beneficio privado de financiarlos.
+
+Cuarto, poder de mercado. No todos los mercados son competitivos. Cuando hay barreras de entrada, concentración, plataformas dominantes o influencia política, los precios pueden reflejar poder antes que eficiencia. Syverson y De Loecker, Eeckhout y Unger muestran que medir ese poder no es simple, pero importa para entender markups, salarios, inversión y dinamismo.
+
+La lección no es “el mercado falla, entonces que intervenga el Estado”. Esa conclusión sería demasiado rápida. La intervención pública también puede fallar por baja capacidad, captura, mala información o reglas mal diseñadas.
+
+La pregunta seria es otra: ¿qué combinación de competencia, regulación, provisión pública, información, derechos y control democrático puede acercar los incentivos privados al bien común?
+
+Tirole ayuda a cerrar la ronda: los mercados no son fines morales en sí mismos. Son instrumentos poderosos que requieren reglas para servir a una sociedad. La economía no reemplaza la deliberación ética, pero puede hacerla más responsable: muestra costos, incentivos, restricciones y efectos no deseados.
+
+Para el Perú, esto abre preguntas muy concretas: ¿qué mercados funcionan con baja información y baja confianza? ¿Dónde hay externalidades ambientales o territoriales sin precio? ¿Qué bienes deben garantizarse como derechos? ¿Dónde el problema es falta de competencia y dónde el riesgo es intervención pública capturada?
+
+No se trata de elegir entre Estado y mercado como bandos. Se trata de diagnosticar qué falla, con qué evidencia, y qué institución puede corregir mejor sin crear un problema mayor.
