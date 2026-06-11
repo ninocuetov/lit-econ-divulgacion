@@ -71,7 +71,7 @@ a {
   position: relative;
   max-width: 1120px;
   margin: 0 auto;
-  padding: 2.1rem 1.25rem 2.7rem;
+  padding: 1.55rem 1.25rem 2.05rem;
 }
 
 .archive-title-copy {
@@ -167,14 +167,14 @@ a {
   right: -2.4rem;
   top: 50%;
   z-index: 0;
-  width: min(34%, 380px);
+  width: min(31%, 350px);
   transform: translateY(-50%);
   padding: 0;
 }
 
 .archive-title p {
   max-width: 860px;
-  margin: 1.25rem 0 0;
+  margin: 0.95rem 0 0;
   color: #020b4d;
   font-size: clamp(1.05rem, 2vw, 1.45rem);
   line-height: 1.55;
@@ -184,7 +184,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem;
-  margin-top: 1.25rem;
+  margin-top: 0.95rem;
 }
 
 .purpose-strip span {
