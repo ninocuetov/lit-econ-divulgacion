@@ -259,33 +259,67 @@ requiere criterios. Si se usa sin evidencia, puede bloquear proyectos viables;
 si se ignora, puede legitimar daños permanentes. La política ambiental debe
 trabajar con incertidumbre, no esconderla.
 
-## 4. Samuelson: bienes públicos y subprovisión
+## 4. Buchholz y Sandler: bienes públicos globales, cooperación y escala
 
-**The Pure Theory of Public Expenditure — Samuelson (1954) · Review of Economics and Statistics**
+**Global Public Goods: A Survey — Buchholz y Sandler (2021) · Journal of Economic Literature**
 
-Samuelson formaliza el problema de bienes públicos. Un bien público puro es no
-rival y no excluible: el consumo de una persona no reduce el de otra, y excluir
-beneficiarios es difícil o costoso. En esas condiciones, aparece free riding:
+Buchholz y Sandler revisan la literatura sobre bienes públicos globales y
+actualizan una intuición clásica para un mundo interdependiente. La referencia
+de partida sigue siendo Samuelson: un bien público puro es no rival y no
+excluible. El consumo de una persona no reduce el de otra, y excluir
+beneficiarios es difícil o costoso. En esas condiciones aparece free riding:
 cada individuo espera beneficiarse sin pagar.
 
-Aunque la formulación es abstracta, el mecanismo es central para desarrollo.
-Muchas condiciones que hacen funcionar mercados tienen rasgos de bien público:
-seguridad, justicia, estadística pública, prevención de desastres, vigilancia
-sanitaria, ciencia, reputación sectorial, estándares, información de mercados e
-infraestructura de coordinación.
+Buchholz y Sandler llevan ese mecanismo a problemas donde los beneficios cruzan
+fronteras, generaciones o grupos amplios: mitigación climática, control de
+enfermedades, conocimiento científico, estabilidad financiera, seguridad
+internacional, biodiversidad, estándares globales o protección de bienes
+comunes. En estos casos, el problema no es solo que el mercado subprovea. Es que
+la autoridad política está fragmentada mientras el beneficio social está
+disperso.
+
+La revisión es útil porque distingue tecnologías de agregación. Algunos bienes
+públicos dependen de la suma de esfuerzos: cada contribución adicional mejora el
+resultado. Otros dependen del eslabón más débil: basta que un actor falle para
+que el sistema completo quede expuesto. Otros responden al mejor esfuerzo: una
+innovación o descubrimiento producido por un actor puede beneficiar a muchos.
+Esta distinción cambia el instrumento. No se financia igual una vacuna, una red
+de vigilancia sanitaria, un acuerdo climático o un estándar de información.
 
 ### Mecanismo analítico
 
 El mercado se perjudica porque el retorno privado apropiable es menor que el
-retorno social. Si una firma invierte en información sectorial, reputación
-exportadora o estándares que otros pueden usar, tal vez invierta menos de lo
-socialmente óptimo. Si todos esperan que otros financien seguridad, datos o
-prevención, el resultado colectivo será insuficiente.
+retorno social. Si una firma, país o territorio invierte en información,
+prevención, conocimiento o reputación que otros pueden usar, tal vez invierta
+menos de lo socialmente óptimo. Si todos esperan que otros financien seguridad,
+datos, prevención sanitaria o mitigación climática, el resultado colectivo será
+insuficiente.
+
+En bienes públicos globales aparece además un problema de jurisdicción. Los
+beneficios y costos no coinciden con las fronteras del decisor. Un país puede
+preferir que otros reduzcan emisiones, financien vigilancia epidemiológica o
+produzcan conocimiento abierto. Sin mecanismos de cooperación, el equilibrio
+puede ser de baja contribución, aun cuando todos estén mejor con mayor provisión.
+
+La literatura muestra que el diseño institucional debe corresponder a la
+tecnología del bien público. Si el bien depende de suma de esfuerzos, importan
+financiamiento compartido y acuerdos de contribución. Si depende del eslabón más
+débil, importan transferencias, asistencia técnica y fortalecimiento del actor
+con menor capacidad. Si depende del mejor esfuerzo, pueden servir premios,
+patentes limitadas, compras anticipadas, investigación pública o fondos
+competitivos. Si el bien puede volverse de club, importan reglas de acceso,
+cuotas y beneficios selectivos.
 
 Este mecanismo no implica que el Estado deba producir directamente todo bien
 colectivo. Puede financiar, coordinar, regular, comprar, cofinanciar o facilitar
 arreglos colectivos. Pero sí muestra por qué el mercado puede subproveer bienes
 necesarios para que otros mercados funcionen.
+
+El punto de Samuelson permanece como base: cuando no se puede excluir fácilmente
+a beneficiarios o cuando el consumo de unos no reduce el de otros, el precio
+privado no revela toda la disposición social a pagar. Buchholz y Sandler añaden
+que, cuando el bien es global o transfronterizo, la provisión también depende de
+cooperación internacional, distribución de costos y credibilidad de los acuerdos.
 
 ### Inferencia válida
 
@@ -299,12 +333,28 @@ Esto conecta con política productiva y territorial. En algunos casos, el cuello
 de botella no es falta de emprendedores, sino ausencia de infraestructura o
 coordinación que ningún actor aislado puede financiar.
 
+La lectura también amplía la agenda peruana hacia bienes públicos regionales y
+globales. La Amazonía, la adaptación climática, la prevención de pandemias, la
+seguridad alimentaria, los datos ambientales, la interoperabilidad sanitaria,
+la estabilidad financiera y la lucha contra economías ilegales tienen beneficios
+que no coinciden con una sola jurisdicción. Perú no puede producirlos solo, pero
+tampoco puede tratarlos como externos a su estrategia de desarrollo.
+
+Esto sugiere que la política pública debe operar en varias escalas. A nivel
+local, puede construir bienes colectivos productivos: caminos, seguridad,
+información, asistencia técnica, laboratorios o certificaciones. A nivel
+nacional, puede financiar bienes públicos con alto retorno social y baja
+apropiabilidad privada. A nivel internacional, puede participar en acuerdos,
+fondos, estándares y coaliciones que aumenten provisión de bienes públicos
+globales relevantes para el país.
+
 ### Límite
 
-Samuelson no resuelve implementación. La provisión pública puede ser
-ineficiente, capturada o mal mantenida. Para pasar de teoría a política se
-necesitan criterios de financiamiento, gobernanza, evaluación y rendición de
-cuentas.
+Buchholz y Sandler no resuelven implementación para cada caso. La provisión
+pública puede ser ineficiente, capturada o mal mantenida. La cooperación
+internacional puede ser lenta, desigual o dominada por países con mayor poder.
+Para pasar de teoría a política se necesitan criterios de financiamiento,
+gobernanza, evaluación y rendición de cuentas.
 
 Además, muchos bienes relevantes para desarrollo no son públicos puros. Pueden
 ser bienes de club, bienes comunes, infraestructura con congestión o servicios
@@ -318,6 +368,13 @@ beneficiarios están dispersos y sus opositores concentrados. También puede
 financiarse de forma ineficiente si grupos organizados logran etiquetar como
 “bien público” lo que en realidad es beneficio privado. El diagnóstico debe
 preguntar quién se beneficia, quién paga y quién decide.
+
+En bienes públicos globales, el problema distributivo es todavía más visible.
+Países pobres pueden necesitar más adaptación climática o vigilancia sanitaria,
+pero tener menor capacidad fiscal. Países ricos pueden demandar conservación o
+reducción de emisiones sin financiar suficientemente los costos de transición.
+La provisión eficiente requiere resolver incentivos, pero también legitimidad y
+equidad entre países.
 
 ## 5. Tirole: regulación, incentivos y bien común
 
@@ -571,6 +628,9 @@ L51, O12, Q52 y Q58.
 Akerlof, G. A. (1970). The market for "lemons": Quality uncertainty and the
 market mechanism. *Quarterly Journal of Economics, 84*(3), 488-500.
 https://doi.org/10.2307/1879431
+
+Buchholz, W., & Sandler, T. (2021). Global public goods: A survey. *Journal of
+Economic Literature, 59*(2), 488-545. https://doi.org/10.1257/jel.20191546
 
 Coase, R. H. (1960). The problem of social cost. *Journal of Law and Economics,
 3*, 1-44. https://doi.org/10.1086/466560

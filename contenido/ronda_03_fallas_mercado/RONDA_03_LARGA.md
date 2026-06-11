@@ -195,31 +195,46 @@ de las instituciones.
 
 ## 4. Bienes públicos: cuando nadie captura todo el beneficio
 
-*The Pure Theory of Public Expenditure* — Samuelson (1954)
+*Global Public Goods: A Survey* — Buchholz y Sandler (2021)
 
 ### La pregunta
 
-¿Por qué ciertos bienes tienden a subproducirse si se dejan solo al mercado?
-Samuelson formaliza el problema de los bienes públicos: bienes cuyo consumo es
-no rival y de los que es difícil excluir beneficiarios.
+¿Por qué algunos bienes socialmente valiosos se subproducen incluso cuando sus
+beneficios son enormes? Buchholz y Sandler revisan la literatura sobre bienes
+públicos globales: bienes cuyos beneficios cruzan fronteras, generaciones o
+grupos amplios, y que por eso requieren cooperación más allá de una transacción
+privada simple.
 
 ### Evidencia y argumento
 
-El argumento es teórico, pero fundamental. Si una persona puede beneficiarse de
-un bien sin pagar por él, tiene incentivos a esperar que otros lo financien. Si
-muchos actúan así, el bien se subproduce aunque todos preferirían vivir en una
-sociedad donde exista.
+La referencia clásica es Samuelson. En *The Pure Theory of Public Expenditure*,
+un bien público puro es no rival y no excluible: el consumo de una persona no
+reduce el de otra y excluir beneficiarios es difícil. El problema económico es
+el free riding. Si una persona puede beneficiarse sin pagar, espera que otros
+financien el bien. Si muchos hacen lo mismo, el bien se produce poco, tarde o
+mal.
 
-Esto afecta al mercado porque hay inversiones cuyo retorno social supera el
-retorno privado apropiable. Seguridad, información pública, ciencia básica,
-prevención de desastres, datos, vigilancia sanitaria, confianza institucional o
-infraestructura de coordinación pueden beneficiar a muchos actores sin que uno
-solo capture todo el beneficio.
+Buchholz y Sandler actualizan esa intuición en una escala más realista. Muchos
+bienes públicos relevantes no son puramente nacionales: estabilidad climática,
+salud global, conocimiento científico, seguridad internacional, estabilidad
+financiera, biodiversidad, datos abiertos o prevención de pandemias. El mercado
+se perjudica porque el retorno privado apropiable es menor que el retorno
+social, y porque ningún actor individual tiene incentivos suficientes para
+financiar todo el beneficio colectivo.
 
-En desarrollo productivo, este punto es crucial. Estándares, laboratorios,
-certificaciones, reputación exportadora, formación técnica o información de
-mercados pueden tener rasgos de bien público sectorial. Si nadie coordina, cada
-firma puede invertir menos de lo socialmente deseable.
+La revisión también muestra que no todos los bienes públicos globales se
+proveen igual. Algunos dependen del esfuerzo agregado de muchos países; otros,
+del eslabón más débil; otros, de un actor líder; otros, de estándares, redes o
+clubes. El diseño institucional importa: financiamiento, monitoreo, sanciones,
+reputación, acuerdos internacionales y distribución de costos modifican la
+posibilidad de cooperación.
+
+En desarrollo productivo, el mismo mecanismo aparece en escala nacional o
+sectorial. Estándares, laboratorios, certificaciones, reputación exportadora,
+formación técnica, información de mercados, datos públicos o prevención de
+desastres pueden beneficiar a muchas firmas sin que una sola capture todo el
+retorno. Si nadie coordina, cada actor invierte menos de lo socialmente
+deseable.
 
 ### Qué aporta
 
@@ -232,12 +247,21 @@ También ayuda a ordenar la discusión sobre Estado. El Estado no interviene sol
 para reemplazar al mercado. A veces interviene para producir condiciones que
 hacen posibles mejores mercados.
 
+La dimensión global es especialmente útil para pensar problemas como cambio
+climático, Amazonía, vigilancia sanitaria, conocimiento técnico, crimen
+transnacional, estabilidad financiera o estándares de comercio. El Perú puede
+beneficiarse de bienes públicos que no produce solo, pero también puede quedar
+expuesto cuando la cooperación internacional falla. Por eso la agenda de bienes
+públicos no es solo doméstica: también es diplomática, regional y multilateral.
+
 ### Límite
 
-Samuelson ofrece una base teórica muy abstracta. No resuelve problemas de
-implementación: qué nivel de gobierno debe proveer, cómo financiar, cómo evitar
-captura, cómo mantener calidad y cómo rendir cuentas. Para eso se necesita
-combinar teoría de bienes públicos con economía política y capacidad estatal.
+Buchholz y Sandler ofrecen una revisión amplia, no una receta para cada bien
+público. El hecho de que un bien tenga beneficios colectivos no define
+automáticamente quién debe financiarlo, qué nivel de gobierno debe proveerlo,
+cómo evitar captura, cómo repartir costos ni cómo rendir cuentas. Para aplicarlo
+al Perú se necesita combinar teoría de bienes públicos, economía política,
+capacidad estatal y cooperación internacional.
 
 ## 5. Mercados, regulación y bien común
 
@@ -344,6 +368,9 @@ L51, O12, Q52 y Q58.
 Akerlof, G. A. (1970). The market for "lemons": Quality uncertainty and the
 market mechanism. *Quarterly Journal of Economics, 84*(3), 488-500.
 https://doi.org/10.2307/1879431
+
+Buchholz, W., & Sandler, T. (2021). Global public goods: A survey. *Journal of
+Economic Literature, 59*(2), 488-545. https://doi.org/10.1257/jel.20191546
 
 Coase, R. H. (1960). The problem of social cost. *Journal of Law and Economics,
 3*, 1-44. https://doi.org/10.1086/466560
