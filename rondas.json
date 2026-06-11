@@ -169,6 +169,7 @@
     "short": "RONDA_03_WHATSAPP_UN_SOLO_MENSAJE.txt",
     "long": "RONDA_03_LARGA.md",
     "technical": "RONDA_03_NOTA_TECNICA.md",
+    "pdf": "contenido/ronda_03_fallas_mercado/publicacion/Ronda_03_Fallas_de_mercado.pdf",
     "mechanisms": [
       {
         "icon": "search",
