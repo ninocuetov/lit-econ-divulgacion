@@ -10,7 +10,7 @@ const VERSION_LABELS = {
   technical: "Nota técnica",
 };
 
-const CONTENT_VERSION = "20260610-18";
+const CONTENT_VERSION = "20260610-19";
 
 const escapeHtml = (value) =>
   value
@@ -185,6 +185,7 @@ function renderIndex() {
           </div>
           <nav class="archive-links" aria-label="Enlaces de ${round.number}">
             <a href="ronda.html?id=${round.id}&version=short">Versión corta</a>
+            ${round.technical ? `<a href="ronda.html?id=${round.id}&version=technical">Nota técnica</a>` : ""}
             <a href="${round.pdf}">PDF</a>
           </nav>
           ${mechanismPreview ? `<div class="mechanism-preview">${mechanismPreview}</div>` : ""}
