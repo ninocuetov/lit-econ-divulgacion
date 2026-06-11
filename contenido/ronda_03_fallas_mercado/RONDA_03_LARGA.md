@@ -21,6 +21,8 @@ problema sin crear uno mayor.
 
 ## Mapa de la ronda
 
+![Mapa conceptual de la ronda](publicacion/Ronda_03_fallas_mercado_mapa.png)
+
 La discusión se organiza alrededor de cinco ideas:
 
 - la información imperfecta puede hacer que elegir no baste para disciplinar calidad;
