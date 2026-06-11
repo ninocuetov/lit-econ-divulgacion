@@ -1,60 +1,41 @@
-RONDA 1 | ESTADO, BUROCRACIA Y CAPTURA
+# ¿Por qué el Estado llega tarde, mal o no llega?
 
-¿Por qué el Estado llega tarde, mal o no llega?
+**Capacidad estatal, burocracia, corrupción, servicios y captura regulatoria.**
 
-Una forma útil de pensar el desarrollo es mirar la capacidad del Estado. No se
-trata solamente de cuánto gasta o cuántas entidades tiene, sino de si puede
-recaudar, coordinar, ejecutar, regular y prestar servicios de manera efectiva.
+Una forma útil de pensar el desarrollo es mirar la capacidad del Estado. No se trata solamente de cuánto gasta, cuántas entidades tiene o cuántas normas aprueba, sino de si puede convertir recursos, autoridad e información en resultados.
 
-Una burocracia competente no es sinónimo de más trámites. Es la organización que
-permite implementar políticas, sostener programas y reducir decisiones
-arbitrarias. Su desempeño depende de la selección, los incentivos y la
-supervisión de los funcionarios, pero también de su relación con la política,
-las empresas y la ciudadanía.
+La pregunta de esta ronda es directa:
 
-Besley, Burgess, Khan y Xu (2022), Annual Review of Economics.
+> ¿Por qué un Estado puede existir en presupuesto, organigrama o ley, pero fallar cuando debe ejecutar, regular o prestar servicios?
 
-La corrupción no es solo una falla moral individual. La evidencia la relaciona
-con incentivos, información, discrecionalidad y controles. Algunas medidas
-anticorrupción pierden eficacia cuando los actores encuentran nuevas formas de
-extraer rentas; por eso importa rediseñar los sistemas, no únicamente castigar
-casos aislados.
+Y también:
 
-Olken y Pande (2012), Annual Review of Economics.
+> ¿Qué diferencia hay entre falta de recursos, mala organización, corrupción, ausentismo y captura?
 
-Visitas no anunciadas a escuelas y centros de salud de seis países, incluido el
-Perú, mostraron una brecha entre la existencia formal del servicio y su
-disponibilidad real. En el promedio de los países estudiados, el 19% de docentes
-y el 35% del personal de salud estaba ausente. Tener infraestructura, plazas y
-presupuesto no garantiza que el servicio llegue al ciudadano.
+## La idea central
 
-Chaudhury, Hammer, Kremer, Muralidharan y Rogers (2006), Journal of Economic
-Perspectives.
+El Estado no falla por una sola causa. Puede tener recursos y normas, pero si la burocracia no funciona, si la corrupción se adapta, si el servicio no llega o si la regulación es capturada, el resultado para el ciudadano sigue siendo débil.
 
-La captura regulatoria ocurre cuando los grupos regulados influyen sobre las
-reglas o su aplicación en beneficio propio. Puede operar mediante información
-asimétrica, lobby, puertas giratorias, presión política o selección de
-reguladores. No siempre adopta la forma visible de un soborno.
+Por eso conviene evitar diagnósticos únicos. A veces el cuello de botella es presupuesto; otras veces es organización, información, continuidad, incentivos, coordinación o interferencia política. Y muchas veces varias fallas se refuerzan entre sí.
 
-Lectura complementaria: Dal Bó (2006), Oxford Review of Economic Policy.
+## Cuatro lecturas para ordenar la discusión
 
-En conjunto, estas lecturas sugieren que el problema peruano no se explica por
-una sola causa. La escasez de recursos importa, pero también importan la
-capacidad para ejecutar, la coordinación entre niveles de gobierno, la
-continuidad de los equipos, el diseño de los controles y la autonomía frente a
-intereses particulares.
+**Besley, Burgess, Khan y Xu** muestran que una burocracia competente no es sinónimo de más trámites. La capacidad estatal depende de selección, incentivos, monitoreo, autonomía, cultura organizacional y relación con la política.
 
-Una respuesta tentativa es que el Perú enfrenta una combinación de baja
-capacidad estatal, diseños institucionales que dificultan la coordinación,
-capturas diversas y coaliciones reformistas débiles. Fortalecer el Estado no
-consiste solo en gastar más, crear entidades o endurecer sanciones: exige
-organizaciones capaces, información útil, controles que funcionen y respaldo
-político y social para sostener las reformas.
+**Olken y Pande** recuerdan que la corrupción no es solo una falla moral individual. Responde a incentivos, información, discrecionalidad y riesgo de detección. Además, puede adaptarse cuando los controles son previsibles.
 
-Pregunta para conversar:
-¿Qué pesa más en el Perú: falta de recursos, mala gestión, diseño institucional,
-captura política o ausencia de una coalición que sostenga reformas?
+**Chaudhury, Hammer, Kremer, Muralidharan y Rogers** distinguen entre servicio formal y servicio efectivo. Que una plaza exista, que el presupuesto esté asignado o que el local esté construido no garantiza que el ciudadano reciba atención.
 
-Nota: la aplicación al Perú es una hipótesis de discusión. Los estudios no
-demuestran por sí solos que todos sus mecanismos operen de igual manera en el
-país.
+**Dal Bó** muestra que la captura regulatoria puede operar sin sobornos visibles. Los regulados pueden influir reglas, supervisión o nombramientos mediante información, lobby, puertas giratorias o presión política.
+
+## Para pensar el Perú
+
+La conclusión no es simplemente que falta más presupuesto, más sanción o más normas. Es probable que el Perú combine capacidades desiguales, fragmentación entre niveles de gobierno, alta rotación, controles orientados al procedimiento, capturas diversas y coaliciones débiles para sostener reformas.
+
+Por eso fortalecer el Estado no consiste solo en crear entidades o endurecer castigos. Exige organizaciones capaces, mejor información, coordinación, controles orientados a riesgos y resultados, autonomía frente a intereses particulares y respaldo político para sostener cambios.
+
+La pregunta práctica es dónde empezar. No todas las entidades requieren la misma reforma, ni todos los territorios enfrentan la misma restricción. Un Estado más capaz se construye identificando funciones concretas: recaudar, comprar, supervisar, prestar servicios, regular, fiscalizar y corregir.
+
+## Pregunta para conversar
+
+¿Qué pesa más en el Perú: falta de recursos, mala gestión, diseño institucional, captura política o ausencia de una coalición que sostenga reformas?

@@ -1,4 +1,4 @@
-# Ronda 1: ¿Por qué el Estado llega tarde, mal o no llega?
+# Ronda 2: ¿Por qué el Estado llega tarde, mal o no llega?
 
 ## Para abrir la conversación
 
