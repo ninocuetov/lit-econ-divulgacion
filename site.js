@@ -54,6 +54,7 @@ function renderMarkdown(source, basePath = "", options = {}) {
   const html = [];
   let paragraph = [];
   let list = [];
+  let quote = [];
   const readingsBySection = buildReadingsBySection(options.readings);
 
   const flushParagraph = () => {
@@ -70,18 +71,27 @@ function renderMarkdown(source, basePath = "", options = {}) {
     }
   };
 
+  const flushQuote = () => {
+    if (quote.length) {
+      html.push(`<blockquote>${quote.map((item) => `<p>${inlineMarkdown(item)}</p>`).join("")}</blockquote>`);
+      quote = [];
+    }
+  };
+
   for (const line of lines) {
     const trimmed = line.trim();
 
     if (!trimmed) {
       flushParagraph();
       flushList();
+      flushQuote();
       continue;
     }
 
     if (options.suppressReadingLines && /^\*.+\*\s+[—-]\s+.+\(\d{4}\)$/.test(trimmed)) {
       flushParagraph();
       flushList();
+      flushQuote();
       continue;
     }
 
@@ -89,6 +99,7 @@ function renderMarkdown(source, basePath = "", options = {}) {
     if (image) {
       flushParagraph();
       flushList();
+      flushQuote();
       const src = image[2].startsWith("http") ? image[2] : `${basePath}/${image[2]}`;
       html.push(`<img src="${escapeHtml(src)}" alt="${escapeHtml(image[1])}">`);
       continue;
@@ -98,6 +109,7 @@ function renderMarkdown(source, basePath = "", options = {}) {
     if (heading) {
       flushParagraph();
       flushList();
+      flushQuote();
       const level = heading[1].length;
       html.push(`<h${level}>${inlineMarkdown(heading[2])}</h${level}>`);
       const section = heading[2].match(/^(\d+)\./);
@@ -110,7 +122,16 @@ function renderMarkdown(source, basePath = "", options = {}) {
     const bullet = trimmed.match(/^[-*]\s+(.+)$/);
     if (bullet) {
       flushParagraph();
+      flushQuote();
       list.push(bullet[1]);
+      continue;
+    }
+
+    const blockquote = trimmed.match(/^>\s+(.+)$/);
+    if (blockquote) {
+      flushParagraph();
+      flushList();
+      quote.push(blockquote[1]);
       continue;
     }
 
@@ -119,6 +140,7 @@ function renderMarkdown(source, basePath = "", options = {}) {
 
   flushParagraph();
   flushList();
+  flushQuote();
   return html.join("\n");
 }
 
