@@ -10,7 +10,7 @@ const VERSION_LABELS = {
   technical: "Nota técnica",
 };
 
-const CONTENT_VERSION = "20260611-11";
+const CONTENT_VERSION = "20260611-12";
 
 const escapeHtml = (value) =>
   value
@@ -44,7 +44,7 @@ function renderMechanismIcon(type = "nodes") {
 function renderReadingMeta(reading) {
   return `
     <p class="reading-meta">
-      <span>${escapeHtml(reading.title)}</span>
+      <span><em>${escapeHtml(reading.title)}</em></span>
       <span>${escapeHtml(reading.authors)} (${escapeHtml(reading.year)}) · ${escapeHtml(reading.journal)}</span>
     </p>
   `;

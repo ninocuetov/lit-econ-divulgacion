@@ -31,7 +31,7 @@ En esa comparación, la capacidad estatal no debe entenderse solo como presupues
 
 ## 1. Rodrik: diagnóstico antes que receta universal
 
-**Goodbye Washington Consensus, Hello Washington Confusion? — Rodrik (2006) · Journal of Economic Literature**
+*Goodbye Washington Consensus, Hello Washington Confusion?* — Rodrik (2006) · Journal of Economic Literature
 
 Rodrik discute el agotamiento de una visión de reforma basada en paquetes relativamente estandarizados: estabilización macroeconómica, liberalización, privatización, apertura y desregulación. Su punto no es negar la importancia de la estabilidad, los incentivos o los mercados, sino cuestionar la idea de que exista una secuencia universal de reformas suficiente para producir crecimiento.
 
@@ -69,7 +69,7 @@ El riesgo de usar mal a Rodrik es convertir el “diagnóstico contextual” en 
 
 ## 2. Bardhan: Estado, coordinación y transformación estructural
 
-**State and Development: The Need for a Reappraisal of the Current Literature — Bardhan (2016) · Journal of Economic Literature**
+*State and Development: The Need for a Reappraisal of the Current Literature* — Bardhan (2016) · Journal of Economic Literature
 
 Bardhan revisa la literatura sobre Estado y desarrollo y propone una mirada menos reducida del papel estatal. El Estado no solo importa porque protege derechos de propiedad o reduce costos de transacción. También puede cumplir funciones de coordinación, acción colectiva, transformación estructural, provisión de bienes públicos y construcción de capacidades.
 
@@ -107,7 +107,7 @@ El límite operativo es exigente: no basta afirmar que existe una falla de coord
 
 ## 3. Acemoglu y Robinson: las reformas económicas cambian la política
 
-**Economics versus Politics: Pitfalls of Policy Advice — Acemoglu y Robinson (2013) · Journal of Economic Perspectives**
+*Economics versus Politics: Pitfalls of Policy Advice* — Acemoglu y Robinson (2013) · Journal of Economic Perspectives
 
 Acemoglu y Robinson introducen una advertencia central: las políticas económicas no solo corrigen distorsiones; también modifican la distribución de poder. Una reforma puede parecer eficiente en un modelo parcial, pero producir efectos dinámicos negativos si fortalece actores que luego bloquean competencia, transparencia o nuevas reformas.
 
@@ -143,7 +143,7 @@ El riesgo de leer este argumento de forma excesiva es caer en parálisis: como t
 
 ## 4. Juhász, Lane y Rodrik: política productiva como aprendizaje disciplinado
 
-**The New Economics of Industrial Policy — Juhász, Lane y Rodrik (2024) · Annual Review of Economics**
+*The New Economics of Industrial Policy* — Juhász, Lane y Rodrik (2024) · Annual Review of Economics
 
 Juhász, Lane y Rodrik revisan la nueva literatura sobre política industrial. El punto no es volver a una defensa nostálgica del proteccionismo, sino estudiar cuándo la intervención pública puede ayudar a resolver fallas de coordinación, información, innovación y aprendizaje.
 

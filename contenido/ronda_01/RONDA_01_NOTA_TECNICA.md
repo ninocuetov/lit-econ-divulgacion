@@ -25,7 +25,7 @@ Para el Perú, la utilidad de esta literatura está en ordenar hipótesis. El pa
 
 ## 1. Besley, Burgess, Khan y Xu: burocracia y desarrollo
 
-**Bureaucracy and Development — Besley, Burgess, Khan y Xu (2022) · Annual Review of Economics**
+*Bureaucracy and Development* — Besley, Burgess, Khan y Xu (2022) · Annual Review of Economics
 
 Besley, Burgess, Khan y Xu revisan una literatura reciente que estudia el funcionamiento interno del Estado con datos administrativos, experimentos de campo y evidencia microeconómica. Su punto de partida es que la burocracia no debe entenderse como papeleo, sino como infraestructura organizacional para ejecutar autoridad pública.
 
@@ -55,7 +55,7 @@ El riesgo de extrapolación es tecnocratizar la burocracia. La profesionalizaci�
 
 ## 2. Olken y Pande: corrupción como problema de incentivos y adaptación
 
-**Corruption in Developing Countries — Olken y Pande (2012) · Annual Review of Economics**
+*Corruption in Developing Countries* — Olken y Pande (2012) · Annual Review of Economics
 
 Olken y Pande revisan una literatura que mejoró la medición de la corrupción en países en desarrollo. El aporte es importante porque la corrupción es deliberadamente oculta: no basta preguntar por percepciones o contar casos judicializados. La nueva evidencia usa auditorías, experimentos, comparaciones entre gasto reportado y gasto efectivo, datos administrativos e indicadores indirectos.
 
@@ -85,7 +85,7 @@ El riesgo de extrapolación es creer que más control siempre mejora resultados.
 
 ## 3. Chaudhury, Hammer, Kremer, Muralidharan y Rogers: servicio formal versus servicio efectivo
 
-**Missing in Action: Teacher and Health Worker Absence in Developing Countries — Chaudhury, Hammer, Kremer, Muralidharan y Rogers (2006) · Journal of Economic Perspectives**
+*Missing in Action: Teacher and Health Worker Absence in Developing Countries* — Chaudhury, Hammer, Kremer, Muralidharan y Rogers (2006) · Journal of Economic Perspectives
 
 Chaudhury y coautores estudian una dimensión básica de la provisión pública: si docentes y trabajadores de salud financiados por el Estado están presentes cuando deben prestar el servicio. Usan visitas no anunciadas a escuelas y establecimientos de salud en seis países, incluido el Perú, y encuentran tasas importantes de ausencia.
 
@@ -115,7 +115,7 @@ El riesgo de extrapolación es reducir calidad del servicio a ausentismo. La pre
 
 ## 4. Dal Bó: captura regulatoria y poder de influencia
 
-**Regulatory Capture: A Review — Dal Bó (2006) · Oxford Review of Economic Policy**
+*Regulatory Capture: A Review* — Dal Bó (2006) · Oxford Review of Economic Policy
 
 Dal Bó revisa la literatura sobre captura regulatoria, con énfasis en cómo los reguladores pueden terminar favoreciendo a los actores que deberían supervisar. La captura es distinta de la corrupción administrativa simple. No siempre implica un soborno visible ni una violación directa de la regla. Puede operar sobre la regla misma, su interpretación, la intensidad de fiscalización o los nombramientos.
 

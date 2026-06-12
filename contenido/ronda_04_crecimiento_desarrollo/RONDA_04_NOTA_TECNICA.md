@@ -42,7 +42,7 @@ instituciones.
 
 ## 1. Jones: hechos del crecimiento y la agenda de ideas
 
-**The Facts of Economic Growth - Jones (2016) - Handbook of Macroeconomics**
+*The Facts of Economic Growth* ? Jones (2016) ? Handbook of Macroeconomics
 
 Jones sintetiza hechos que una teoría de crecimiento debe explicar: diferencias
 enormes de ingreso por persona entre países, crecimiento sostenido en la
@@ -105,7 +105,7 @@ siguiente sobre transformación productiva.
 
 ## 2. Sen: desarrollo como libertad y capacidades
 
-**Development as Freedom - Sen (1999) - Oxford University Press**
+*Development as Freedom* ? Sen (1999) ? Oxford University Press
 
 Sen desplaza el centro de la discusión desde ingreso hacia capacidades. El
 desarrollo debe evaluarse por las libertades reales que tienen las personas
@@ -158,7 +158,7 @@ sino construir tableros de bienestar con criterios explícitos.
 
 ## 3. Acemoglu, Johnson y Robinson: instituciones y crecimiento de largo plazo
 
-**Institutions as a Fundamental Cause of Long-Run Growth - Acemoglu, Johnson y Robinson (2005) - Handbook of Economic Growth**
+*Institutions as a Fundamental Cause of Long-Run Growth* ? Acemoglu, Johnson y Robinson (2005) ? Handbook of Economic Growth
 
 Acemoglu, Johnson y Robinson sostienen que las instituciones son causa
 fundamental del crecimiento de largo plazo porque moldean incentivos económicos
@@ -216,7 +216,7 @@ infraestructura, capital humano o financiamiento.
 
 ## 4. Stiglitz, Sen y Fitoussi: medición del progreso y bienestar
 
-**Report by the Commission on the Measurement of Economic Performance and Social Progress - Stiglitz, Sen y Fitoussi (2009)**
+*Report by the Commission on the Measurement of Economic Performance and Social Progress* ? Stiglitz, Sen y Fitoussi (2009)
 
 El reporte Stiglitz-Sen-Fitoussi parte de una preocupación práctica: lo que una
 sociedad mide influye en lo que discute y prioriza. El PBI mide producción
@@ -269,7 +269,7 @@ de restricciones ni capacidad estatal para actuar.
 
 ## 5. Hausmann, Rodrik y Velasco: diagnóstico de crecimiento
 
-**Growth Diagnostics - Hausmann, Rodrik y Velasco (2005) - Harvard University**
+*Growth Diagnostics* ? Hausmann, Rodrik y Velasco (2005) ? Harvard University
 
 Hausmann, Rodrik y Velasco proponen un enfoque pragmático: no todos los países
 crecen poco por la misma razón. Por eso las listas universales de reformas

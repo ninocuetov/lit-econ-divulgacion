@@ -50,7 +50,7 @@ mercado.
 
 ## 1. Handel y Schwartzstein: información que existe, pero no disciplina
 
-**Frictions or Mental Gaps: What's Behind the Information We (Don't) Use and When Do We Care? — Handel y Schwartzstein (2018) · Journal of Economic Perspectives**
+*Frictions or Mental Gaps: What's Behind the Information We (Don't) Use and When Do We Care?* — Handel y Schwartzstein (2018) · Journal of Economic Perspectives
 
 Handel y Schwartzstein revisan por qué las personas no usan información
 relevante incluso cuando está disponible. Su distinción central es entre
@@ -126,7 +126,7 @@ técnico.
 
 ## 2. Syverson: poder de mercado, medición y consecuencias macroeconómicas
 
-**Macroeconomics and Market Power: Context, Implications, and Open Questions — Syverson (2019) · Journal of Economic Perspectives**
+*Macroeconomics and Market Power: Context, Implications, and Open Questions* — Syverson (2019) · Journal of Economic Perspectives
 
 Syverson revisa el debate sobre poder de mercado desde una perspectiva
 macroeconómica. El punto de partida es que varios indicadores en economías
@@ -198,7 +198,7 @@ a veces significa permitir entrada y crecimiento de firmas eficientes.
 
 ## 3. Greenstone y Jack: externalidades ambientales en desarrollo
 
-**Envirodevonomics: A Research Agenda for an Emerging Field — Greenstone y Jack (2015) · Journal of Economic Literature**
+*Envirodevonomics: A Research Agenda for an Emerging Field* — Greenstone y Jack (2015) · Journal of Economic Literature
 
 Greenstone y Jack proponen unir economía ambiental y economía del desarrollo.
 Su pregunta es por qué la calidad ambiental puede ser tan baja en países pobres
@@ -261,7 +261,7 @@ trabajar con incertidumbre, no esconderla.
 
 ## 4. Buchholz y Sandler: bienes públicos globales, cooperación y escala
 
-**Global Public Goods: A Survey — Buchholz y Sandler (2021) · Journal of Economic Literature**
+*Global Public Goods: A Survey* — Buchholz y Sandler (2021) · Journal of Economic Literature
 
 Buchholz y Sandler revisan la literatura sobre bienes públicos globales y
 actualizan una intuición clásica para un mundo interdependiente. La referencia
@@ -378,7 +378,7 @@ equidad entre países.
 
 ## 5. Tirole: regulación, incentivos y bien común
 
-**Economics for the Common Good — Tirole (2017) · Princeton University Press**
+*Economics for the Common Good* — Tirole (2017) · Princeton University Press
 
 Tirole permite articular economía, regulación y ética pública. Su punto de
 partida es que los mercados son instrumentos. No son moralmente autosuficientes

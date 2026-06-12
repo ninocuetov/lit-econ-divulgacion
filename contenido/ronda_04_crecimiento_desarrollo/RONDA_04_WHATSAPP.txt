@@ -8,9 +8,9 @@ El crecimiento económico importa porque permite más inversión, empleo, ingres
 
 1. Por qué importa crecer
 
-Charles Jones, en The Facts of Economic Growth, revisa los grandes hechos del crecimiento: enormes diferencias de ingreso entre países, importancia de productividad, ideas, capital humano, instituciones y escala.
+Charles Jones, en *The Facts of Economic Growth*, revisa los grandes hechos del crecimiento: enormes diferencias de ingreso entre países, importancia de productividad, ideas, capital humano, instituciones y escala.
 
-Jones y Romer, en The New Kaldor Facts, habían sintetizado una intuición clave: el crecimiento moderno no se entiende solo acumulando capital físico; depende de ideas, instituciones, población y capital humano.
+Jones y Romer, en *The New Kaldor Facts*, habían sintetizado una intuición clave: el crecimiento moderno no se entiende solo acumulando capital físico; depende de ideas, instituciones, población y capital humano.
 
 Sin crecimiento sostenido, es más difícil financiar servicios, crear empleo, reducir pobreza y ampliar oportunidades, especialmente para los más vulnerables.
 
@@ -18,7 +18,7 @@ Sin crecimiento sostenido, es más difícil financiar servicios, crear empleo, r
 
 2. Crecer no basta
 
-Amartya Sen, en Development as Freedom, propone mirar el desarrollo como expansión de libertades reales: vivir más y mejor, aprender, participar, decidir, evitar privaciones evitables y tener capacidades para elegir una vida valiosa.
+Amartya Sen, en *Development as Freedom*, propone mirar el desarrollo como expansión de libertades reales: vivir más y mejor, aprender, participar, decidir, evitar privaciones evitables y tener capacidades para elegir una vida valiosa.
 
 El ingreso ayuda, pero no reemplaza salud, educación, seguridad, derechos ni agencia.
 
@@ -26,7 +26,7 @@ El ingreso ayuda, pero no reemplaza salud, educación, seguridad, derechos ni ag
 
 3. Instituciones
 
-Acemoglu, Johnson y Robinson, en Institutions as a Fundamental Cause of Long-Run Growth, sostienen que las reglas políticas y económicas importan porque moldean incentivos para invertir, innovar, educarse y producir.
+Acemoglu, Johnson y Robinson, en *Institutions as a Fundamental Cause of Long-Run Growth*, sostienen que las reglas políticas y económicas importan porque moldean incentivos para invertir, innovar, educarse y producir.
 
 Las instituciones no son una varita mágica, pero ayudan a explicar por qué algunos países convierten oportunidades en crecimiento sostenido y otros quedan atrapados en rentas, privilegios o baja inversión.
 
@@ -42,7 +42,7 @@ Para evaluar progreso hay que mirar ingresos de los hogares, desigualdad, salud,
 
 5. Diagnóstico antes que receta
 
-Hausmann, Rodrik y Velasco, en Growth Diagnostics, proponen no aplicar la misma receta a todos los países.
+Hausmann, Rodrik y Velasco, en *Growth Diagnostics*, proponen no aplicar la misma receta a todos los países.
 
 El crecimiento puede estar limitado por bajo retorno a la inversión, mala apropiabilidad, falta de financiamiento, infraestructura deficiente, capital humano, riesgos, coordinación o instituciones. La política útil empieza por identificar la restricción principal.
 
