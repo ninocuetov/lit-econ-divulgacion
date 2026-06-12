@@ -1,29 +1,43 @@
-Ronda 4: ¿Por qué crecer no siempre equivale a desarrollarse?
+# ¿Por qué crecer no siempre equivale a desarrollarse?
 
-Esta ronda abre una nueva etapa. Después de discutir Estado, mercados y sus fallas, la pregunta de fondo es otra: ¿para qué queremos crecer? El crecimiento económico importa porque permite más inversión, empleo, ingresos, servicios y posibilidades. Pero no todo crecimiento se convierte automáticamente en desarrollo.
+**Crecimiento, bienestar, capacidades e instituciones para pensar el desarrollo.**
 
-1. Por qué importa crecer
+Esta ronda abre una nueva etapa. Después de discutir Estado, mercados y sus fallas, la pregunta de fondo es otra:
 
-Charles Jones, en *The Facts of Economic Growth*, revisa los grandes hechos del crecimiento: enormes diferencias de ingreso entre países, importancia de productividad, ideas, capital humano, instituciones y escala. Jones y Romer, en *The New Kaldor Facts*, habían sintetizado una intuición clave: el crecimiento moderno no se entiende solo acumulando capital físico; depende de ideas, instituciones, población y capital humano.
+> ¿Para qué queremos crecer?
 
-Sin crecimiento sostenido, es más difícil financiar servicios, crear empleo, reducir pobreza y ampliar oportunidades, especialmente para los más vulnerables.
+Y también:
 
-2. Crecer no basta
+> ¿Cuándo el crecimiento se convierte realmente en desarrollo?
 
-Amartya Sen, en *Development as Freedom*, propone mirar el desarrollo como expansión de libertades reales: vivir más y mejor, aprender, participar, decidir, evitar privaciones evitables y tener capacidades para elegir una vida valiosa. El ingreso ayuda, pero no reemplaza salud, educación, seguridad, derechos ni agencia.
+## La idea central
 
-3. Instituciones
+El crecimiento económico importa porque permite más inversión, empleo, ingresos, servicios y posibilidades. Sin crecimiento sostenido, es más difícil financiar servicios, crear empleo, reducir pobreza y ampliar oportunidades, especialmente para los más vulnerables.
 
-Acemoglu, Johnson y Robinson, en *Institutions as a Fundamental Cause of Long-Run Growth*, sostienen que las reglas políticas y económicas importan porque moldean incentivos para invertir, innovar, educarse y producir. Las instituciones no son una varita mágica, pero ayudan a explicar por qué algunos países convierten oportunidades en crecimiento sostenido y otros quedan atrapados en rentas, privilegios o baja inversión.
+Pero no todo crecimiento se convierte automáticamente en desarrollo. Desarrollarse exige que el crecimiento amplíe capacidades, reduzca vulnerabilidades, sostenga instituciones y permita que más personas participen de una vida económica y cívica más plena.
 
-4. Medir progreso
+## Cinco lecturas para ordenar la discusión
 
-Stiglitz, Sen y Fitoussi, en el reporte sobre medición del desempeño económico y progreso social, advierten que el PBI mide producción, no bienestar completo. Para evaluar progreso hay que mirar ingresos de los hogares, desigualdad, salud, educación, ambiente, seguridad económica, tiempo, sostenibilidad y calidad de vida.
+**Jones**, en *The Facts of Economic Growth*, revisa los grandes hechos del crecimiento: enormes diferencias de ingreso entre países, importancia de productividad, ideas, capital humano, instituciones y escala. Jones y Romer, en *The New Kaldor Facts*, habían sintetizado una intuición clave: el crecimiento moderno no se entiende solo acumulando capital físico.
 
-5. Diagnóstico antes que receta
+**Sen**, en *Development as Freedom*, propone mirar el desarrollo como expansión de libertades reales: vivir más y mejor, aprender, participar, decidir, evitar privaciones evitables y tener capacidades para elegir una vida valiosa. El ingreso ayuda, pero no reemplaza salud, educación, seguridad, derechos ni agencia.
 
-Hausmann, Rodrik y Velasco, en *Growth Diagnostics*, proponen no aplicar la misma receta a todos los países. El crecimiento puede estar limitado por bajo retorno a la inversión, mala apropiabilidad, falta de financiamiento, infraestructura deficiente, capital humano, riesgos, coordinación o instituciones. La política útil empieza por identificar la restricción principal.
+**Acemoglu, Johnson y Robinson**, en *Institutions as a Fundamental Cause of Long-Run Growth*, sostienen que las reglas políticas y económicas importan porque moldean incentivos para invertir, innovar, educarse y producir. Las instituciones ayudan a explicar por qué algunos países convierten oportunidades en crecimiento sostenido y otros quedan atrapados en rentas, privilegios o baja inversión.
 
-Para el Perú, la ronda sugiere una pregunta incómoda: ¿cuánto crecimiento se ha convertido en capacidades duraderas? El país puede crecer por precios de materias primas, inversión o estabilidad macro, pero desarrollarse exige más: productividad, educación, salud, seguridad, infraestructura, confianza, Estado capaz, mercados competitivos y ciudadanía efectiva.
+**Stiglitz, Sen y Fitoussi**, en *Report by the Commission on the Measurement of Economic Performance and Social Progress*, advierten que el PBI mide producción, no bienestar completo. Para evaluar progreso hay que mirar ingresos de los hogares, desigualdad, salud, educación, ambiente, seguridad económica, tiempo, sostenibilidad y calidad de vida.
 
-Respuesta tentativa: crecer es indispensable, pero no suficiente. El desarrollo ocurre cuando el crecimiento amplía capacidades, reduce vulnerabilidades, sostiene instituciones y permite que más personas participen de una vida económica y cívica más plena.
+**Hausmann, Rodrik y Velasco**, en *Growth Diagnostics*, proponen no aplicar la misma receta a todos los países. El crecimiento puede estar limitado por bajo retorno a la inversión, mala apropiabilidad, falta de financiamiento, infraestructura deficiente, capital humano, riesgos, coordinación o instituciones.
+
+## Para pensar el Perú
+
+Para el Perú, la ronda sugiere una pregunta incómoda:
+
+> ¿Cuánto crecimiento se ha convertido en capacidades duraderas?
+
+El país puede crecer por precios de materias primas, inversión o estabilidad macro, pero desarrollarse exige más: productividad, educación, salud, seguridad, infraestructura, confianza, Estado capaz, mercados competitivos y ciudadanía efectiva.
+
+La respuesta tentativa es clara: crecer es indispensable, pero no suficiente. La pregunta pública no debería ser solo cuánto crecemos, sino qué capacidades, instituciones y oportunidades deja ese crecimiento.
+
+## Pregunta para conversar
+
+¿Qué dimensiones del desarrollo peruano han avanzado con el crecimiento y cuáles siguen desconectadas de él?
