@@ -333,8 +333,8 @@
     "id": "crecimiento-desarrollo-complementariedades",
     "published": true,
     "number": "Ronda 5",
-    "title": "?El desarrollo debe esperar al crecimiento, o tambi?n puede impulsarlo?",
-    "summary": "Capacidades, equidad e inclusi?n productiva como motores del crecimiento.",
+    "title": "¿El desarrollo debe esperar al crecimiento, o también puede impulsarlo?",
+    "summary": "Capacidades, equidad e inclusión productiva como motores del crecimiento.",
     "folder": "contenido/ronda_05_crecimiento_desarrollo_complementariedades",
     "short": "RONDA_05_WHATSAPP_UN_SOLO_MENSAJE.txt",
     "long": "RONDA_05_LARGA.md",
@@ -344,12 +344,12 @@
       {
         "icon": "nodes",
         "label": "Oportunidades",
-        "text": "Reducir barreras permite invertir en educaci?n, salud, movilidad y proyectos productivos."
+        "text": "Reducir barreras permite invertir en educación, salud, movilidad y proyectos productivos."
       },
       {
         "icon": "steps",
         "label": "Capacidades",
-        "text": "Aprendizajes reales y salud elevan productividad, adaptaci?n y participaci?n econ?mica."
+        "text": "Aprendizajes reales y salud elevan productividad, adaptación y participación económica."
       },
       {
         "icon": "route",
@@ -359,7 +359,7 @@
       {
         "icon": "balance",
         "label": "Crecimiento sostenido",
-        "text": "Equidad, confianza y legitimidad pueden hacer m?s duraderos los episodios de crecimiento."
+        "text": "Equidad, confianza y legitimidad pueden hacer más duraderos los episodios de crecimiento."
       }
     ],
     "glossary": [
@@ -368,19 +368,19 @@
         "definition": "Conjunto de habilidades, salud y aprendizajes que aumentan capacidades productivas y de agencia."
       },
       {
-        "term": "Asignaci?n de talento",
-        "definition": "Proceso por el cual las personas llegan o no a ocupaciones donde pueden producir m?s valor."
+        "term": "Asignación de talento",
+        "definition": "Proceso por el cual las personas llegan o no a ocupaciones donde pueden producir más valor."
       },
       {
-        "term": "Equidad din?mica",
-        "definition": "Equidad que modifica trayectorias futuras al reducir barreras de aprendizaje, movilidad o inversi?n."
+        "term": "Equidad dinámica",
+        "definition": "Equidad que modifica trayectorias futuras al reducir barreras de aprendizaje, movilidad o inversión."
       }
     ],
     "readings": [
       {
         "section": "1",
         "title": "Inequality and Economic Growth: The Perspective of the New Growth Theories",
-        "authors": "Aghion, Caroli y Garc?a-Pe?alosa",
+        "authors": "Aghion, Caroli y García-Peñalosa",
         "year": "1999",
         "journal": "Journal of Economic Literature"
       },
