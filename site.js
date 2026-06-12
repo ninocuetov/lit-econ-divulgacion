@@ -10,7 +10,7 @@ const VERSION_LABELS = {
   technical: "Nota técnica",
 };
 
-const CONTENT_VERSION = "20260611-13";
+const CONTENT_VERSION = "20260611-14";
 
 const escapeHtml = (value) =>
   value
@@ -318,25 +318,13 @@ function renderIndex() {
     .join("");
 }
 
-function setDownloads(round, sourcePath) {
+function setDownloads(round) {
   const pdf = document.querySelector("#pdf-link");
-  const docx = document.querySelector("#docx-link");
-  const source = document.querySelector("#source-link");
   const technical = document.querySelector("#technical-link");
 
   if (pdf && round.pdf) {
     pdf.hidden = false;
     pdf.href = round.pdf;
-  }
-
-  if (docx && round.docx) {
-    docx.hidden = false;
-    docx.href = round.docx;
-  }
-
-  if (source) {
-    source.hidden = false;
-    source.href = sourcePath;
   }
 
   if (technical) {
@@ -462,7 +450,7 @@ async function renderRound() {
   if (sideGlossary) {
     sideGlossary.innerHTML = state.currentVersion === "long" ? renderSideGlossary(round) : "";
   }
-  setDownloads(round, sourcePath);
+  setDownloads(round);
 }
 
 function wireRoundTabs() {
