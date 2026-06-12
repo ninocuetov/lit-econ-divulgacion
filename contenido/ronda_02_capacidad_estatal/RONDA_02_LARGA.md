@@ -18,7 +18,7 @@ el análisis empírico específico del Perú.
 
 ## Mapa de la ronda
 
-![Mapa conceptual de la ronda](publicacion/Ronda_01_mapa_conceptual.png)
+![Mapa conceptual de la ronda](publicacion/Ronda_02_mapa_conceptual.png)
 
 El mapa resume la intuición de la ronda: el Estado no falla por un solo punto. Puede tener recursos y normas, pero si la burocracia no funciona, si la corrupción adapta sus formas, si el servicio no llega o si la regulación es capturada, el resultado final para el ciudadano sigue siendo débil.
 

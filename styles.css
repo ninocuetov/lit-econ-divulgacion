@@ -504,7 +504,11 @@ a {
 }
 
 .civic-map div {
-  min-height: 6rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.15rem 0.75rem;
+  align-content: start;
+  min-height: 5.2rem;
   padding: 0.9rem;
   border-left: 3px solid var(--accent);
   background: linear-gradient(135deg, #fff, #f6f1ec);
@@ -526,7 +530,7 @@ a {
 }
 
 .civic-map span {
-  margin-top: 0.35rem;
+  margin-top: 0.2rem;
   color: var(--muted);
   font-size: 0.95rem;
 }
@@ -617,6 +621,161 @@ a {
   scroll-margin-top: 1rem;
 }
 
+.about-header {
+  background:
+    linear-gradient(135deg, rgba(251, 250, 247, 0.96), rgba(237, 243, 239, 0.92)),
+    linear-gradient(90deg, #176b5d, #9d4f2f);
+}
+
+.about-title {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(10rem, 14rem);
+  gap: 1.25rem;
+  align-items: center;
+  overflow: hidden;
+}
+
+.about-signal {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  opacity: 0.82;
+}
+
+.about-signal svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 12.5rem;
+  overflow: hidden;
+}
+
+.peru-band {
+  opacity: 0.86;
+  stroke: rgba(255, 255, 255, 0.48);
+  stroke-width: 0.8;
+}
+
+.peru-band.coast {
+  fill: #f3df78;
+}
+
+.peru-band.highlands {
+  fill: #b9874e;
+}
+
+.peru-band.forest {
+  fill: #8acb6f;
+}
+
+.territory-arrow {
+  fill: none;
+  stroke: #245f73;
+  stroke-linecap: round;
+  stroke-width: 2.2;
+  marker-end: url("#territory-arrowhead");
+  paint-order: stroke;
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.88));
+}
+
+.territory-arrow.weak {
+  opacity: 0.62;
+  stroke-dasharray: 5 5;
+}
+
+.territory-arrow.east-link {
+  opacity: 0.6;
+  stroke-dasharray: 6 5;
+}
+
+.territory-arrow.loreto-link {
+  opacity: 0.58;
+  stroke-dasharray: 3 5;
+}
+
+.territory-arrow.cusco-link {
+  opacity: 0.5;
+  stroke: var(--accent-2);
+  stroke-dasharray: 4 5;
+  marker-end: url("#territory-arrowhead-rust");
+}
+
+.territory-arrow.sierra-link {
+  opacity: 0.64;
+}
+
+.territory-arrow.strong {
+  opacity: 0.82;
+}
+
+.territory-arrow.coast-link {
+  stroke: var(--accent-2);
+  opacity: 0.58;
+  marker-end: url("#territory-arrowhead-rust");
+}
+
+#territory-arrowhead path {
+  fill: #245f73;
+}
+
+#territory-arrowhead-rust path {
+  fill: var(--accent-2);
+}
+
+.territory-node {
+  fill: #fff;
+  stroke: var(--accent);
+  stroke-width: 1.5;
+}
+
+.territory-node.main {
+  fill: var(--accent);
+}
+
+.territory-node.faint {
+  opacity: 0.52;
+}
+
+.lima-ring {
+  fill: none;
+  stroke: var(--accent-2);
+  stroke-dasharray: 3 3;
+  stroke-width: 1.5;
+  opacity: 0.78;
+}
+
+.signal-icon {
+  fill: none;
+  stroke: #020b4d;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.1;
+  opacity: 0.62;
+}
+
+.signal-icon.balance,
+.signal-icon.growth {
+  stroke: var(--accent);
+}
+
+.signal-icon.heart,
+.signal-icon.coins,
+.signal-icon.infrastructure {
+  stroke: var(--accent-2);
+  opacity: 0.72;
+}
+
+.signal-icon.education,
+.signal-icon.coordination {
+  stroke: #020b4d;
+  opacity: 0.62;
+}
+
+.signal-icon.state {
+  opacity: 0.5;
+}
+
 .framework-links {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -625,14 +784,92 @@ a {
 }
 
 .framework-links a {
-  display: block;
-  min-height: 7rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.15rem 0.75rem;
+  align-content: start;
+  min-height: 5.7rem;
   padding: 0.95rem;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #f8fbf8;
   color: var(--ink);
   text-decoration: none;
+}
+
+.framework-links a::before,
+.civic-map div::before {
+  content: "";
+  display: block;
+  grid-row: 1 / span 2;
+  width: 2.15rem;
+  height: 2.15rem;
+  margin: 0.1rem 0 0;
+  background: currentColor;
+  color: var(--accent);
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.civic-map div::before {
+  width: 2rem;
+  height: 2rem;
+}
+
+.framework-links a:nth-child(2n)::before,
+.civic-map div:nth-child(2n)::before {
+  color: var(--accent-2);
+}
+
+.framework-links a:nth-child(1)::before,
+.civic-map div:nth-child(1)::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 20v-8l7-5 7 5v8M8 20v-5h8v5M4 10h16M9 7V4h6v3' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 20v-8l7-5 7 5v8M8 20v-5h8v5M4 10h16M9 7V4h6v3' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.framework-links a:nth-child(2)::before,
+.civic-map div:nth-child(2)::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 13l5-9 5 9M9 13h6M12 4v16M6 20h12' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 13l5-9 5 9M9 13h6M12 4v16M6 20h12' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.framework-links a:nth-child(3)::before,
+.civic-map div:nth-child(3)::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 4v16M5 8h14M7 8l-3 6h6L7 8zM17 8l-3 6h6l-3-6z' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 4v16M5 8h14M7 8l-3 6h6L7 8zM17 8l-3 6h6l-3-6z' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.framework-links a:nth-child(4)::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 18h16M6 18v-5M11 18V8M16 18v-8M6 10l5-5 4 4 3-3' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 18h16M6 18v-5M11 18V8M16 18v-8M6 10l5-5 4 4 3-3' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.framework-links a:nth-child(5)::before,
+.civic-map div:nth-child(4)::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 7h16M6 7v12M18 7v12M4 19h16M9 11h6M9 15h6' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 7h16M6 7v12M18 7v12M4 19h16M9 11h6M9 15h6' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.framework-links a:nth-child(6)::before,
+.civic-map div:nth-child(5)::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 20h16M5 9h14M7 9v11M12 9v11M17 9v11M3 9l9-5 9 5' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 20h16M5 9h14M7 9v11M12 9v11M17 9v11M3 9l9-5 9 5' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.framework-links a:nth-child(7)::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 8h12M6 16h12M8 6v12M16 6v12M4 12h16' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 8h12M6 16h12M8 6v12M16 6v12M4 12h16' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.framework-links a:nth-child(8)::before,
+.civic-map div:nth-child(6)::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 21s-7-4.2-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.8-7 10-7 10zM9 12h6' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 21s-7-4.2-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.8-7 10-7 10zM9 12h6' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
 }
 
 .framework-links a:hover,
@@ -653,6 +890,112 @@ a {
 .framework-links span {
   margin-top: 0.35rem;
   color: var(--muted);
+}
+
+.route-section {
+  margin-top: 2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--line);
+}
+
+.route-map {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 1.05rem;
+  align-items: center;
+}
+
+.route-map div {
+  position: relative;
+  display: inline-flex;
+  min-width: 0;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: auto;
+  padding: 0.35rem 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.route-map div::after {
+  content: "";
+  display: block;
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-left: 0.25rem;
+  border-top: 2px solid rgba(23, 107, 93, 0.62);
+  border-right: 2px solid rgba(23, 107, 93, 0.62);
+  transform: rotate(45deg);
+}
+
+.route-map div:last-child::after {
+  display: none;
+}
+
+.route-map span,
+.method-flow span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid rgba(23, 107, 93, 0.28);
+  border-radius: 50%;
+  background: #edf3ef;
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 850;
+}
+
+.route-map div:nth-child(2n) span,
+.method-flow div:nth-child(2n) span {
+  border-color: rgba(157, 79, 47, 0.28);
+  background: #f6f1ec;
+  color: var(--accent-2);
+}
+
+.route-map strong,
+.method-flow strong {
+  min-width: 0;
+  color: #020b4d;
+  font-size: 0.95rem;
+  line-height: 1.25;
+  overflow-wrap: normal;
+}
+
+.method-flow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin: 1.35rem 0 0;
+  padding: 1rem;
+  border: 1px solid #cddad5;
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(237, 243, 239, 0.88), rgba(246, 241, 236, 0.9)),
+    #fff;
+}
+
+.method-flow div {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 4.1rem;
+  padding: 0.85rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.method-flow div + div::before {
+  content: "";
+  position: absolute;
+  left: -0.52rem;
+  top: 50%;
+  width: 0.44rem;
+  border-top: 2px solid rgba(23, 107, 93, 0.45);
 }
 
 .ai-note {
@@ -1120,6 +1463,29 @@ a {
 
   .page-title {
     padding-top: 2rem;
+  }
+
+  .about-title {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .about-signal {
+    display: none;
+  }
+
+  .route-map,
+  .method-flow {
+    grid-template-columns: 1fr;
+  }
+
+  .route-map div {
+    min-height: auto;
+  }
+
+  .route-map div::after,
+  .method-flow div + div::before {
+    display: none;
   }
 
   .archive-item {

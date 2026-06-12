@@ -15,9 +15,9 @@ identidad y atracción, no de sustitución del contenido.
 
 ## Secuencia de WhatsApp
 
-1. Enviar `publicacion/Ronda_01_portada_whatsapp.png`.
+1. Enviar `publicacion/Ronda_02_portada_whatsapp.png`.
 2. Esperar unos segundos y enviar los cuatro bloques de
-   `RONDA_01_WHATSAPP.txt`.
+   `RONDA_02_WHATSAPP.txt`.
 3. Adjuntar el PDF o añadir un enlace público de solo lectura.
 4. Cerrar con la pregunta de discusión, sin agregar otro resumen.
 
@@ -57,4 +57,3 @@ Antes de la segunda ronda conviene decidir:
 - periodicidad;
 - licencia o condiciones de reutilización;
 - canal principal de distribución y archivo.
-
