@@ -27,6 +27,34 @@ educación, seguridad, confianza, movilidad, igualdad de oportunidades y reglas
 legítimas afectan productividad, inversión, participación laboral y capacidad de
 cooperación.
 
+La referencia clásica detrás de parte de esta discusión es Kuznets. Su hipótesis
+de la U invertida planteó que, durante la transición desde economías agrarias
+hacia economías industriales y urbanas, la desigualdad podía aumentar al inicio
+y reducirse después. La intuición era estructural: si el sector moderno paga más
+que el tradicional y absorbe gradualmente trabajo, la desigualdad agregada puede
+crecer mientras una parte de la población entra primero a actividades de mayor
+productividad. Más adelante, la difusión educativa, la urbanización, la
+ampliación política y las instituciones redistributivas podrían reducir brechas.
+
+Esa hipótesis fue influyente porque ofrecía una narrativa ordenada para países
+en desarrollo: tolerar desigualdad inicial como parte de la transformación y
+esperar que el propio desarrollo cree condiciones para corregirla. Pero como
+guía de política es insuficiente. Primero, Kuznets trabajó con datos limitados y
+una interpretación histórica más que con una ley universal. Segundo, la forma de
+la relación depende de instituciones, estructura productiva, acceso educativo,
+mercados de crédito, poder político y capacidad estatal. Tercero, aun si algunas
+brechas aumentan durante una transformación productiva, otras pueden bloquear la
+transformación misma.
+
+Por eso esta nota usa Kuznets como punto de partida, no como conclusión. La
+pregunta no es si la desigualdad siempre sube o baja con el ingreso, sino qué
+desigualdades operan como restricciones al crecimiento. Si una brecha refleja
+retornos temporales a innovación o acumulación de capacidades, su interpretación
+es distinta de una brecha producida por mala educación, discriminación, captura
+política, inseguridad o exclusión financiera. En el primer caso puede haber una
+prima asociada a transformación; en el segundo puede haber mala asignación y
+pérdida de productividad.
+
 La clave es distinguir gasto de inversión en capacidades. Una transferencia
 puede aliviar pobreza y tener valor por sí misma. Pero su efecto sobre
 crecimiento dependerá de si modifica restricciones que limitan productividad o
@@ -40,6 +68,14 @@ desigualdad, redistribución y duración del crecimiento. El tercero discute
 capital humano como habilidades efectivas, no solo años de escolaridad. El
 cuarto aborda género y decisiones intra-hogar. El quinto analiza asignación de
 talento como canal de productividad agregada.
+
+Leídos contra Kuznets, estos bloques desplazan la discusión desde una curva
+histórica promedio hacia mecanismos específicos. En vez de asumir que la
+desigualdad se corregirá automáticamente cuando el país sea más rico, preguntan
+si las desigualdades actuales reducen inversión en personas, distorsionan la
+asignación del talento, debilitan legitimidad o frenan reformas. Esa es una
+pregunta más útil para economías donde crecimiento, informalidad, baja calidad
+de servicios y exclusión territorial conviven durante largos periodos.
 
 ## 1. Aghion, Caroli y García-Peñalosa: desigualdad como mecanismo macroeconómico
 
@@ -594,6 +630,9 @@ https://doi.org/10.1257/jel.46.3.607
 Hsieh, C.-T., Hurst, E., Jones, C. I., & Klenow, P. J. (2019). The allocation of
 talent and U.S. economic growth. *Econometrica, 87*(5), 1439-1474.
 https://doi.org/10.3982/ECTA11427
+
+Kuznets, S. (1955). Economic growth and income inequality. *The American
+Economic Review, 45*(1), 1-28.
 
 Neves, P. C., Afonso, O., & Silva, S. T. (2016). A meta-analytic reassessment of
 the effects of inequality on growth. *World Development, 78*, 386-400.

@@ -16,6 +16,21 @@ seguridad, confianza e instituciones no solo mejoran bienestar. También pueden
 elevar productividad, ampliar mercados, mejorar asignación de talento y hacer
 más sostenibles las reformas.
 
+Este debate tiene un antecedente clásico en la hipótesis de Kuznets. En su
+lectura más conocida, la desigualdad tendería a aumentar en etapas tempranas de
+industrialización y luego a caer cuando el desarrollo avanza, la población se
+urbaniza, se expande la educación y cambian las instituciones. Esa imagen de una
+U invertida influyó mucho porque ofrecía una secuencia intuitiva: primero
+crecimiento y transformación productiva, luego reducción de desigualdad.
+
+Pero esa lectura puede volverse peligrosa si se transforma en una receta
+automática para países en desarrollo. La hipótesis de Kuznets no dice que toda
+desigualdad sea productiva, ni que convenga postergar capacidades básicas hasta
+después de crecer. La literatura posterior muestra que algunas desigualdades
+pueden ser parte del problema de crecimiento: impiden invertir en educación y
+salud, bloquean movilidad, desperdician talento, deterioran confianza y vuelven
+más frágiles las coaliciones que sostienen reformas.
+
 La dicotomía “primero crecer, luego distribuir o desarrollar” puede ser
 demasiado pobre. Algunas políticas redistributivas mal diseñadas pueden afectar
 incentivos, ahorro, inversión o capacidad fiscal. Pero algunas desigualdades
@@ -31,6 +46,7 @@ y una sociedad más capaz de sostener cambios.
 
 La discusión se organiza alrededor de cinco ideas:
 
+- Kuznets ayuda a entender por qué la secuencia “crecer primero” fue influyente, pero no basta para interpretar las restricciones actuales de países en desarrollo;
 - la desigualdad puede afectar crecimiento por restricciones de crédito, capital humano, incentivos y economía política;
 - la evidencia empírica reciente sugiere una relación heterogénea, no mecánica, entre desigualdad y crecimiento;
 - la calidad del aprendizaje importa más que contar años de escolaridad;
@@ -374,6 +390,9 @@ https://doi.org/10.1257/jel.46.3.607
 Hsieh, C.-T., Hurst, E., Jones, C. I., & Klenow, P. J. (2019). The allocation of
 talent and U.S. economic growth. *Econometrica, 87*(5), 1439-1474.
 https://doi.org/10.3982/ECTA11427
+
+Kuznets, S. (1955). Economic growth and income inequality. *The American
+Economic Review, 45*(1), 1-28.
 
 Neves, P. C., Afonso, O., & Silva, S. T. (2016). A meta-analytic reassessment of
 the effects of inequality on growth. *World Development, 78*, 386-400.

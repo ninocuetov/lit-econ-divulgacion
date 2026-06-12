@@ -4,6 +4,10 @@
 
 La ronda anterior separó crecimiento y desarrollo: crecer importa, pero no basta. Esta ronda da un paso más. Si el desarrollo no es solo “lo que viene después” del crecimiento, entonces algunas políticas de desarrollo pueden ser también motores de crecimiento.
 
+Detrás de esta discusión está una idea clásica asociada a Kuznets: en las primeras etapas del desarrollo, la desigualdad podría aumentar y luego caer cuando la economía madura. Esa intuición ayudó a instalar la idea de que primero habría que crecer y recién después corregir brechas.
+
+La literatura posterior invita a leer esa hipótesis con más cuidado. En países en desarrollo, algunas desigualdades no son solo un costo transitorio del crecimiento: pueden frenar aprendizaje, salud, movilidad, inversión, confianza y uso del talento.
+
 La pregunta de fondo es:
 
 > ¿El desarrollo debe esperar a que el país crezca más?
